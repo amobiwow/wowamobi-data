@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="DENIZENSTW_STEP" header="DENIZENSTW" category="ADDONS">
+        DenizensTW_Step()
+    </Binding>
+</Bindings>

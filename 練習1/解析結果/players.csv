@@ -1,0 +1,670 @@
+﻿realm,faction,name,level,class_token,class_zh,class_raw,race_token,race_zh,race_raw,sex,guild,area,first_tw,last_tw,first,last,seen,source
+Classic Beta PvP 2,Alliance,Abraham Melano,13,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,碎石怪之谷,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Acanthophis Vossy,26,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,監獄,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Adac Poa,2,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:16,2026-10-18 18:16,1792318563,1792318563,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Adar Capochef,4,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS USA II,幽影谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Adrizzt Entétris,10,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS CXVII,灰色洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aeris Windspire,18,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暮光谷,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aerlin Lawenk,16,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ailer Epsilon,2,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aizoon Lightstorm,18,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,Gamer Word,哨兵嶺,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Akella Celaraf,28,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,Shawarma Patrol,藍腮沼澤,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318729,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Alice Pia,11,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Alivanra Sergeevna,25,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Рейдерская закваска,邁斯特拉崗哨,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Allina Williams,17,HUNTER,獵人,獵人,HUMAN,人類,人類,1,End Game,艾爾文森林,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Amo Amo,11,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Amonri Dellamorte,18,WARLOCK,術士,術士,HUMAN,人類,人類,1,,鐵環挖掘場,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Antuan Juanvi,10,WARLOCK,術士,術士,GNOME,地精,地精,1,OLYMPUS VI,凍土嶺,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ao Il,15,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,月溪鎮,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aradox Drazurk,15,WARRIOR,戰士,戰士,DWARF,矮人,矮人,1,,摩爾森農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aralov Sportikovich,16,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aroi Krapao,12,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,霧松避難所,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Arthyos Goldsword,12,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,石碑湖,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Asdasdasd Asdasdasds,5,MAGE,法師,法師,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Assumi Lolprozxc,12,MAGE,法師,法師,HUMAN,人類,人類,1,,薩丁農場,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Aubane Nsrsx,15,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,OLYMPUS RELEASED ON BAIL,長橋碼頭,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Baalu Schwarzbär,1,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ballecreuse Digorgonzola,9,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,霜鬃要塞,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bandscheiben Inspektor,5,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bcr Gengar,3,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bear Wom,8,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Beavers Tail,30,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,達拉然,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bejaya Boni,22,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,米奈希爾港,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Belzenuth Lemalefique,20,MAGE,法師,法師,GNOME,地精,地精,1,Rebirth,阿斯特蘭納,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bengvir Itamar,10,PRIEST,牧師,牧師,HUMAN,人類,人類,1,Olympus Ohio,北郡山谷,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Benrik Schandmaul,21,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Beyond Daniel,17,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS CXVII,洛克莫丹,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bigai Bubble,3,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,OLYMPUS USA II,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bigdaddy Athmic,8,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,OLYMPUS REEDUCATION CAMP,水晶湖,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bilool Aumic,23,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,赤脊山,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Black Cogg,23,MAGE,法師,法師,HUMAN,人類,人類,1,,撕裂者之石,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Blanco Calvo,21,WARLOCK,術士,術士,HUMAN,人類,人類,1,,濕地,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bloodnoctys Daramol,25,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bo Bggo,14,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Boasted Beasted,12,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,荒原果園,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bob Roy,19,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,法布隆南瓜農場,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Brigitte Âbbendis,8,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Brimbur Eisenhammer,4,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Bro Ccollie,3,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS USA II,奧達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Butz Bergbart,5,WARRIOR,戰士,戰士,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Butzin Boom,18,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ca Vise,10,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Canette Guerilla,19,WARRIOR,戰士,戰士,GNOME,地精,地精,1,GnomeIand Security,死亡礦坑,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cat Moufle,15,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,La Dernière Tournée,洛克莫丹,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cercle Pine,14,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,洛克湖,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cerreq Comeback,21,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,Laughing On Your Corpse,鐵甲灣,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Chapa Forever,10,MAGE,法師,法師,GNOME,地精,地精,1,,諾姆瑞根,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Chepre Evotori,19,WARLOCK,術士,術士,HUMAN,人類,人類,1,,死亡礦坑,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Chiki Tina,5,MAGE,法師,法師,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318877,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Chocolatesa Holy,3,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Click Ban,26,MAGE,法師,法師,HUMAN,人類,人類,1,,監獄,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Clou Doomblade,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,銀泉礦坑,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cocol Ahidmi,1,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,OLYMPUS GREECE,暴風城,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Croamer Lefiak,5,WARRIOR,戰士,戰士,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318877,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cruors Atps,10,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,達納蘇斯,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cuarto Druida,22,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,赤脊山,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cybelorand Swiftmane,4,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS ABSOLUTE CINEMA,幽影谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Cydyd Esp,18,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,烈酒旅店,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dady Issue,30,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:16,2026-10-18 18:16,1792318580,1792318580,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Daifu Dai,6,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dana Nightfall,4,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dark Kaiser,25,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,寂靜河岸,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Darkelbow Throatgrime,12,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Darnha Susse,17,MAGE,法師,法師,HUMAN,人類,人類,1,,匕首嶺,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Daroal Majoor,7,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dasd Wqeq,9,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,荒原果園,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318888,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Daspien Shaw,12,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Adictos al PvP,瓦拉納爾,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dayi Freeman,26,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,暮色森林,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318724,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dañopuro Contraelmuro,10,WARLOCK,術士,術士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Deepax Four,20,WARLOCK,術士,術士,HUMAN,人類,人類,1,,恐懼海岸,2026-10-18 18:16,2026-10-18 18:18,1792318574,1792318710,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Delto Gross,11,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,霧松避難所,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Diaz Crik,2,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:16,2026-10-18 18:19,1792318563,1792318746,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dierihi Winds,24,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dodo Da,27,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,巴拉丁海灣,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dominik Márcel,15,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,霧松避難所,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dra Kosha,7,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,奧拉密斯湖,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Drael Drax,1,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dragi Fiuu,2,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dranit Dmonkey,16,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Olympus Deadlift,摩爾森農場,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Drevik Reavz,19,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,月溪鎮,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Droxi Soulmend,19,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,Knallianz,哀嚎洞穴,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dskboys Haohao,30,MAGE,法師,法師,GNOME,地精,地精,1,唐人社,鹽沫沼澤,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dude Lebovsky,23,WARLOCK,術士,術士,HUMAN,人類,人類,1,,死亡礦坑,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Dzirt Daurden,14,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,奧伯丁,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Easykill Fox,16,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,RUINOUS,西部荒野,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,El Paquillo,4,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Eldrin Vale,24,MAGE,法師,法師,GNOME,地精,地精,1,,暮色森林,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Elexia Artanis,24,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Eltha Dungeoneer,6,MAGE,法師,法師,GNOME,地精,地精,1,,灰色洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Elua Furidan,7,WARLOCK,術士,術士,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Elumena Schattentanz,30,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,休息區,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Elwyr Thyr,1,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Emil Shadow,7,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Enano Banano,11,PRIEST,牧師,牧師,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Esaleath Nightheart,27,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,暴風城,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Etepetete Hima,18,WARLOCK,術士,術士,HUMAN,人類,人類,1,OLYMPUS Aura Farmers,死亡礦坑,2026-10-18 18:13,2026-10-18 18:30,1792318399,1792319415,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Eurosport Oleksii,22,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,米奈希爾港,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Faelara Wolkenläufer,10,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Fan Halen,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,傑羅德碼頭,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Fefesse Pvpforever,30,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,Légion Fantôme,迷失挖掘場,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Flex Machine,7,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Floyd Benett,8,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,Olympus Ohio,暴風城,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Fluttershy Pegasus,10,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS EXILE,荒原果園,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Flx Warr,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:17,2026-10-18 18:17,1792318639,1792318639,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Fraicheur Hunt,30,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,Addon config,暗矛島嶼,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Franz Manz,15,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,碎石怪之谷,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Frondi Drago,19,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,鐵爐堡大門,2026-10-18 18:16,2026-10-18 18:30,1792318574,1792319415,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Frrank Castle,24,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,米奈希爾海灣,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gabbanina Sx,12,PRIEST,牧師,牧師,GNOME,地精,地精,1,OLYMPUS USA II,南門小徑,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Galashh Nikov,10,ROGUE,盜賊,盜賊,DWARF,矮人,矮人,1,,諾姆瑞根,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gallarad Graufuchs,6,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,OLYMPUS MECHANICUS,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ganker Pa,5,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡農場,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Genshoryu Thilman,17,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,止水湖,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Geoffrey Valor,18,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gfgf Iuiui,6,WARLOCK,術士,術士,HUMAN,人類,人類,1,,玉石礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ghost Riders,1,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gimmly Eisenzunder,9,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,烈酒村,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gipdron Sl,6,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,水晶湖,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Giuujklza Gujja,12,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS RELEASED ON BAIL,泰達希爾,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Glissilldor Glissinger,22,WARRIOR,戰士,戰士,NIGHTELF,夜精靈,夜精靈,1,,鐵爐堡,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gnomo Frostbalt,4,MAGE,法師,法師,GNOME,地精,地精,1,OLYMPUS USA II,寒脊山谷,2026-10-18 18:16,2026-10-18 18:17,1792318563,1792318622,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gobzinou Wf,23,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,濕地,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Gogo Wo,23,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,止水湖,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Goldrick Mcturigan,18,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,OLYMPUS DEATH SQUAD,鐵爐堡,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Golgathar Caligula,15,PRIEST,牧師,牧師,GNOME,地精,地精,1,,族長之廳,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Graam Nokman,7,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,烈酒村,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318882,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Greed Gier,10,WARLOCK,術士,術士,GNOME,地精,地精,1,OLYMPUS VETERANS,丹莫洛,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318888,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Halsin Vomwaldhain,8,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,法拉斯村,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Hanovria Lagrarnde,8,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,灰色洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Hayame Yudoki,15,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,族長之廳,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Hecht Yurr,1,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Himmel Hecht,27,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Hius First,14,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS AGARTHIANS,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Homunkulus Perfidus,5,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Hss Sdf,10,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,卡拉諾斯,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Héyoka Mantil,17,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,湖邊大道,2026-10-18 18:13,2026-10-18 18:28,1792318399,1792319323,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Icos Cur,1,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS USA II,幽影谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ifchicken Ifz,18,PRIEST,牧師,牧師,GNOME,地精,地精,1,,哨兵嶺,2026-10-18 18:10,2026-10-18 18:17,1792318251,1792318645,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Infe Flamier,7,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,強盜藏身處,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Its Shaime,5,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,丹莫洛,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Itvinker Reborn,9,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,森林邊界,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Izir Soul,13,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:13,2026-10-18 18:17,1792318382,1792318639,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Izu Dvarg,15,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鐵環挖掘場,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Jack Olafson,3,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Jakar Vetra,7,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Jhon Nature,15,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,長橋碼頭,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Jonny Rakete,19,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,OLYMPUS EXILE,鐵爐堡,2026-10-18 18:16,2026-10-18 18:30,1792318574,1792319415,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kabale Wa,18,WARLOCK,術士,術士,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:16,2026-10-18 18:17,1792318574,1792318645,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kaheltor Blue,17,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Druids of the Wilds,湖邊大道,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kajine Jenkins,15,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,哨兵嶺,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kal Kaluch,29,WARRIOR,戰士,戰士,GNOME,地精,地精,1,End Game,挖掘場：濕地,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kala Miller,7,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kenion Keny,25,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暮色森林,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kim Peter,18,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Klakavek Elhan,8,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Klebrige Backen,23,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS GIGACHUDS,寂靜河岸,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kokasang Glaçon,7,MAGE,法師,法師,GNOME,地精,地精,1,,卡拉諾斯,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Korean Beta,11,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,西泉要塞,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Krossi Kros,15,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Krrik Phyrexia,10,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,班奈希爾獸穴,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kura Nayo,6,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Kvantovyy Krik,3,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Königstiger Maus,11,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS EXILE,鐵環營地,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,La Maritza,13,MAGE,法師,法師,HUMAN,人類,人類,1,,詹戈洛德礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lamano Dedios,16,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,湖畔鎮,2026-10-18 18:10,2026-10-18 18:17,1792318251,1792318645,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lara Conor,2,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:17,2026-10-18 18:17,1792318622,1792318622,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Larack Rhum,3,MAGE,法師,法師,HUMAN,人類,人類,1,OLYMPUS VTUBER,暴風城,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Laurana Thantalas,10,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ledoud Delacomté,15,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,La Dernière Tournée,洛克莫丹,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Leeloo Looloo,10,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lelu Kai,25,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,寂靜河岸,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Light Fatê,16,PRIEST,牧師,牧師,GNOME,地精,地精,1,,死亡礦坑,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lilibel Remak,13,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,影風森林,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lilith Featherstep,6,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Limace Rapace,13,WARRIOR,戰士,戰士,NIGHTELF,夜精靈,夜精靈,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Linxk Long,15,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,黑海岸,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lola Ombrage,1,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Londress Morain,1,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lov Pascraft,4,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Love Suky,7,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS VI,卡拉諾斯,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lowkey Lügenschmied,6,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ltt Mt,28,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,Blade Of Azure,鐵爐堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Luciatus Vi,17,WARLOCK,術士,術士,GNOME,地精,地精,1,,黑海岸,2026-10-18 18:13,2026-10-18 18:28,1792318399,1792319323,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Luna Tïc,26,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,湖畔鎮,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Luness Hathaway,15,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,亞米薩蘭,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lunático Loco,8,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lwi Zi,15,WARLOCK,術士,術士,HUMAN,人類,人類,1,,黑海岸,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lyra Falkenauge,19,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Lyrano Frostmähne,4,MAGE,法師,法師,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ma Wha,19,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,湖邊大道,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Magicus Bald,11,MAGE,法師,法師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Majesté Leroi,5,WARLOCK,術士,術士,HUMAN,人類,人類,1,,水晶湖,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mamakuu Sap,2,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,OLYMPUS USA II,北郡山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Manaya Indomptable,18,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,月溪鎮,2026-10-18 18:17,2026-10-18 18:17,1792318645,1792318645,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Marsupi Wild,18,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,赤脊山,2026-10-18 18:16,2026-10-18 18:30,1792318574,1792319415,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Martina Nachtläufer,3,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:21,1792318746,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mata Omuere,20,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,西部荒野,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mathéo Levaleureux,14,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,影風森林,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Maxim Romanovich,1,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Maîtresse Porcine,16,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mblk Amb,14,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,洛克莫丹,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Microdeath Ua,10,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Third Division,荒原果園,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mikasai Ackerman,14,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,法布隆南瓜農場,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mimi Kakushi,7,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS MECHANICUS,泰達希爾,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Miss Òó,16,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS ABSOLUTE CINEMA,族長之廳,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mitch Mclusky,12,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mon Capítaíne,3,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Motoro Black,22,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Mî Ip,30,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,OLYMPUS GIGACHUDS,龍喉大門,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Nabor Geroev,12,WARRIOR,戰士,戰士,DWARF,矮人,矮人,1,,碎石怪之谷,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Naïn Ceste,30,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,監獄,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Neleni Minimi,12,WARRIOR,戰士,戰士,GNOME,地精,地精,1,OLYMPUS USA II,盔枕湖,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Neroli Beelzebeth,18,WARLOCK,術士,術士,GNOME,地精,地精,1,,急彎河,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Newton Scamander,7,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Niko Kolas,6,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風歌湖,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318877,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,No Force,8,MAGE,法師,法師,HUMAN,人類,人類,1,,東谷伐木場,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Nomad Gq,8,HUNTER,獵人,獵人,HUMAN,人類,人類,1,OLYMPUS GENERATIONAL RUN,玉石礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Nowyouplay Forever,26,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Nox Vell,6,WARLOCK,術士,術士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Olar Kala,14,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,OLYMPUS MECHANICUS,法布隆南瓜農場,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Orange Bananakick,6,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318877,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Osa Español,10,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS MECHANICUS,風莓低地,2026-10-18 18:17,2026-10-18 18:17,1792318633,1792318633,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Osok Hsu,8,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Oups Cmoi,10,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,OLYMPUS ABSOLUTE CINEMA,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ousmage Dembélé,13,MAGE,法師,法師,GNOME,地精,地精,1,OLYMPUS MECHANICUS,傑生農場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Outofmymind Northend,19,MAGE,法師,法師,GNOME,地精,地精,1,,赤脊山,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Palpe Lateens,18,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,羅德隆廢墟,2026-10-18 18:16,2026-10-18 18:30,1792318574,1792319415,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Paradox Eu,15,WARLOCK,術士,術士,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Pastelito Nordum,6,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,OLYMPUS MECHANICUS,灰色洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Paye Paye,23,MAGE,法師,法師,HUMAN,人類,人類,1,,達納蘇斯,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Philipp Herbst,3,WARLOCK,術士,術士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Pit Pot,12,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,西泉要塞,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Poulpy Foreverpvp,21,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,湖畔鎮,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Power Doom,17,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,金海岸礦坑,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Puck Tuck,5,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Pukis Dudenko,26,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,英雄谷,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Pupkaza Lupka,4,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Purple Djudjuu,12,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Pü Pü,8,HUNTER,獵人,獵人,HUMAN,人類,人類,1,OLYMPUS CXVII,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Qwdqwdq Qdwqwd,21,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Qweqrtqesdrg Grwerwer,1,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Qwerty Qwee,3,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS USA II,瓦拉納爾,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Raclettifa Sunrise,9,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Rainer Richturteil,25,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,Die Eisenwacht,藏寶海灣,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Raion Baldy,3,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:21,1792318746,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Rayna Fury,17,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:10,2026-10-18 18:28,1792318251,1792319323,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Redhair Nana,13,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS West Virginia,多蘭納爾,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Refäk Addmagnet,11,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Renata Semans,1,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,英雄谷,2026-10-18 18:16,2026-10-18 18:19,1792318563,1792318746,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Reqx Wildhunt,3,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Rikrot Darkgul,16,WARLOCK,術士,術士,GNOME,地精,地精,1,,洛克莫丹,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Rista Reier,4,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,回音山礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Robi Hoodi,15,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,哨兵嶺,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Roland Legend,29,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ruffini Isback,20,WARLOCK,術士,術士,HUMAN,人類,人類,1,Olympus Ohio,藏寶海灣,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Rustich Al,26,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,日落沼澤,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Saat Sham,11,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,暴風城,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Saish Fingal,11,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,荒原果園,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Salda Firstone,24,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,BRAWL,夜道谷,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Saltimbanque Malicieuxtx,5,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Samsi Mi,2,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,San Pancracio,3,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sansgluten Miaou,10,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318888,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Savakuu Forever,1,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sdwg Pln,2,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Seris Vritrra,5,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Serpens So,2,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS USA II,坦德爾林地,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Seyar Seyar,1,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Shamrok Schamane,2,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Shee Esh,12,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,Ave Christus Rex,鐵環營地,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Show Mirages,16,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,薄霧海,2026-10-18 18:13,2026-10-18 18:28,1792318399,1792319323,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Shuno Dumbledore,14,MAGE,法師,法師,GNOME,地精,地精,1,OLYMPUS RELEASED ON BAIL,洛克湖,2026-10-18 18:13,2026-10-18 18:16,1792318382,1792318569,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sia Mecks,24,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,洛克莫丹,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sibara Rp,18,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,黑海岸,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sigor Javujong,13,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,奧伯丁,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Silber Schwert,11,HUNTER,獵人,獵人,HUMAN,人類,人類,1,OLYMPUS GENERATIONAL RUN,艾爾文森林,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sillex Gul,12,WARLOCK,術士,術士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sitaranne Medusa,16,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Skayrx Neno,15,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,Druids of the Wilds,族長之廳,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Skywind Fred,10,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Soberbia Ulterior,17,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,奧伯丁,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sokone Lara,15,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,魯瑟蘭村,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sorcerer Cronus,9,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS Gandalf,寒風峽谷,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sorothos Druíde,13,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,薄霧海,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Spell Prieest,4,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡農場,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318870,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Spring Flower,30,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,塞拉摩堡壘,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sr Leyk,6,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,灰色洞穴,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Stella Mortadella,6,MAGE,法師,法師,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318877,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Stich Geber,4,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,OLYMPUS USA II,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Stompi Anin,4,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sunghan Peng,14,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,魯瑟蘭村,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Swoony Kelly,12,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:13,2026-10-18 18:13,1792318382,1792318382,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Syak Syak,2,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Sîrope Maple,14,WARLOCK,術士,術士,HUMAN,人類,人類,1,,摩爾森農場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tanawey Lore,1,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Taranis Silverleaf,14,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS CHURCH,暮光谷,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tardil Eisenauge,14,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,暴風城,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tarja Elwynn,6,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tchaxx Tchaxx,29,MAGE,法師,法師,HUMAN,人類,人類,1,,荒棄鬼屋,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Techa Maneo,15,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,OLYMPUS VI,哀嚎洞穴,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tekeya Duskglade,15,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,族長之廳,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ten Shiro,18,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,奧伯丁,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Teodin Uirilia,6,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鋼架補給站,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Teylana Woods,24,MAGE,法師,法師,GNOME,地精,地精,1,,影牙城堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Thagrim Schattenbart,25,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Thebest Nameever,16,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Thomas Dottschalk,18,WARLOCK,術士,術士,HUMAN,人類,人類,1,Testing The Dream,暴風城,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Til Schweigt,24,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,水晶湖,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tilt Pot,7,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tiresias Qt,5,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tj Jiri,22,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,JESUS CHRIST is GOD,米奈希爾港,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Toredrorlim Opalhelm,7,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,灰色洞穴,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Torigg Gardeclair,10,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,暴風城,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318888,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tra Law,15,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Trala La,5,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Triksi Ray,10,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Trollus Troller,17,MAGE,法師,法師,GNOME,地精,地精,1,,月溪鎮,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Trufell Bell,7,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鋼架補給站,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Turyl Fratyr,3,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,北郡農場,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Tymba Umba,8,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,霧松避難所,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Türkiye Love,12,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Umbra Sicarius,16,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS STEEL,丹莫洛,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Unbändig Blutklaue,1,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Uneñfp Dass,1,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Vaelis Duskwinds,15,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,銀泉礦坑,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Valakius Zelevas,4,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Valeey Zeeko,12,MAGE,法師,法師,GNOME,地精,地精,1,Umami,斯特登的池塘,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Valentina Mandarina,14,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Velo Müller,6,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Veon Ordo,8,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Verya Hellsing,9,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Vikingo Sueco,12,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,Olympus Ohio,洛克莫丹,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Vital Mihei,14,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,玉石礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Voodoo Molly,19,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,赤脊山,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Waltraud Wolf,4,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:17,2026-10-18 18:17,1792318622,1792318622,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Weewee Coxxash,2,MAGE,法師,法師,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wer Mn,8,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,班尼希爾山谷,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Werner Suffnase,7,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,灰色洞穴,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,West Highwind,18,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,暴風城,2026-10-18 18:13,2026-10-18 18:30,1792318399,1792319415,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Widowmaker Deadlykiss,19,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wilma Pieksen,12,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,哨兵嶺,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wis Doom,11,ROGUE,盜賊,盜賊,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Word Lnvincible,6,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wormwood Dst,20,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,End Game,黑海岸,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wudsi Wuds,18,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,鐵環挖掘場,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Wwffg Wwe,1,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Xard Das,8,WARLOCK,術士,術士,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Xeris Wrynn,22,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,加拉德爾山谷,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Xpaladin Xpaladin,30,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,唐人社,巴拉丁海灣,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Yiasha Lawa,7,MAGE,法師,法師,HUMAN,人類,人類,1,,法戈第礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ysi Ohm,24,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,End Game,暴風城,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318724,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Yu Sona,21,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,薄霧海,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Yøkurø Contraelmuro,10,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Zet Skyborn,12,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Zhar Ita,15,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,BLACK HAND OF OLYMPUS,哨兵嶺,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Zianor Kekw,13,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,OLYMPUS USA II,南門小徑,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Zig Zz,7,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,丹莫洛,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Zwergi Nator,1,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ødin Valhalla,8,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,灰色洞穴,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Øne Shøøts,16,HUNTER,獵人,獵人,HUMAN,人類,人類,1,DeepWater,湖畔鎮,2026-10-18 18:17,2026-10-18 18:17,1792318645,1792318645,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Алехандро Гудини,10,MAGE,法師,法師,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Аномальный Шам,13,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Бета Фарадес,4,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Вестниксвета Бронзобород,26,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,寂靜河岸,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Витёк Хорошист,26,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Гельферц Обес,22,WARLOCK,術士,術士,HUMAN,人類,人類,1,,暗色河灘,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Грочь Непрочь,30,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,Siberia,日落沼澤,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Гутен Морген,11,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,南門崗哨,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Дед Краманаг,7,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,Банда Старого Тракта,北郡山谷,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318882,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Джони Квэст,11,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,奧拉密斯湖,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Диметра Животворящия,2,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ени Лав,15,MAGE,法師,法師,HUMAN,人類,人類,1,,艾力克斯頓農莊,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Закуска Острая,17,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,Банда Старого Тракта,止水湖,2026-10-18 18:10,2026-10-18 18:28,1792318251,1792319323,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Зох Офф,15,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鐵環挖掘場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Имбирчик Кисловатый,10,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,卡拉諾斯,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ис Два,11,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,奧拉密斯湖,2026-10-18 18:13,2026-10-18 18:13,1792318382,1792318382,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Капуцин Капуц,28,HUNTER,獵人,獵人,HUMAN,人類,人類,1,Банда Старого Тракта,暴風城,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Костян Лок,14,WARLOCK,術士,術士,GNOME,地精,地精,1,,長灘,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Лиля Смирнова,20,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暮色森林,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Лярва Паскужья,16,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,法戈第礦坑,2026-10-18 18:10,2026-10-18 18:28,1792318251,1792319323,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Максимус Андхардан,15,MAGE,法師,法師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Малая Таша,30,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,Банда Старого Тракта,米奈希爾港,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Микаэла Дринкер,6,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,Olympus Ohio,貿易區,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Мрачный Кекс,17,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,Банда Старого Тракта,湖畔鎮,2026-10-18 18:13,2026-10-18 18:28,1792318399,1792319323,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Палада Дада,14,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,鐵爐堡,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318910,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Понять Ипростить,2,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:16,2026-10-18 18:19,1792318563,1792318746,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Ромелла Синеглазая,9,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Усики Трусики,1,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Фенстер Ро,11,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,瓦拉納爾,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Фур Фырка,22,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,奧瑟爾伐木場,2026-10-18 18:16,2026-10-18 18:18,1792318574,1792318710,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Хахаха Хихихи,22,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Хихихи Хахаха,21,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Хорида Невменяемая,30,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,Siberia,瑟根石,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Эв Ло,3,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,Элуна Андем,14,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,魯瑟蘭村,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318910,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,九头牛 诗序,22,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,黑水沼澤,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,伊霓菈 月失,28,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,唐人社,米奈希爾港,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,军需官 激流堡,29,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,唐人社,長橋碼頭,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,几把 威,27,WARLOCK,術士,術士,GNOME,地精,地精,1,,避難谷地,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,发电 熊,19,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,唐人社,死亡礦坑,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,可爱的 噜噜,18,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,奧薩拉克斯之塔,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,多啦喵夢 叮噹,19,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,Rebirth,赤脊山,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,奶奶 奶奶,24,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,加拉德爾山谷,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,孝吉 拔毛,16,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,奧伯丁,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,小 卯咪,17,WARLOCK,術士,術士,HUMAN,人類,人類,1,唐人社,鐵甲灣,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,小啤 亮,9,WARLOCK,術士,術士,GNOME,地精,地精,1,,鋼架補給站,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,小菊 同学,15,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,就 很璇,17,PRIEST,牧師,牧師,HUMAN,人類,人類,1,唐人社,鐵甲灣,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,尼古啦丝 赵四,23,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,水晶湖,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,张疯笑 笑疯三,27,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,唐人社,失落的艦隊,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,張 翼德,7,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,強尼 啾啾,20,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS CATHOLICS,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,微风 不燥,30,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,唐人社,暗矛島嶼,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,快看 飞碟,30,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,夜歌森林,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,急急 开始,23,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,亮木樹林,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,悟空 喵喵,14,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,族長之廳,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318910,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,悟空 惩戒,11,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,族長之廳,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,我叫 好爸爸,8,WARRIOR,戰士,戰士,DWARF,矮人,矮人,1,,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,我悟了 你隨意,25,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,唐人社,撕裂者之石,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,我是 爹,3,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,我是 牧师三号,20,PRIEST,牧師,牧師,DWARF,矮人,矮人,1,,鐵環挖掘場,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,我是 牧师二号,20,PRIEST,牧師,牧師,DWARF,矮人,矮人,1,,鐵環挖掘場,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,招財 進寶,17,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,奧伯丁,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,持盾 兼白牧,3,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,回音山礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,斯巴 兰克,29,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,唐人社,達拉然,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,日落 花无颜,30,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,唐人社,影牙城堡,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,明 月夜,16,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,望月 听潮,17,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,唐人社,達納蘇斯,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,沙拉 還有,9,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,諾姆瑞根,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,湯川 學,10,WARLOCK,術士,術士,HUMAN,人類,人類,1,,玉石礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,熊熊 很可愛,4,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,熱海 皇梨,15,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,猛猛 凎,23,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,閃金鎮,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,王敦 大氣運者,4,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,百里 风怒,29,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,唐人社,鐵爐堡,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,神 火,4,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,丹莫洛,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,章鱼 姐,8,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,玉石礦坑,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,维尼 写诗,13,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,唐人社,風莓低地,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,老虎皮 丶圣,30,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,唐人社,暗色河灘,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,艾麗婭 霜星,17,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,萬事屋,哨兵嶺,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,血色 僧侣,24,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,唐人社,米奈希爾港,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,豆荚 泡泡,30,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,濕地,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,轉角 遇到鬼,17,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS REEDUCATION CAMP,月溪鎮,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,雞姐 地下融資,25,WARLOCK,術士,術士,GNOME,地精,地精,1,,夜色鎮,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,雪銀狐 雪小姬,16,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,烈酒旅店,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,黑坑 钓鱼佬,28,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,唐人社,濕地,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,黑天鵝 大小姐,2,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS MECHANICUS,達納蘇斯,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,가누군지 안다,5,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,가을사제 별밭,30,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,夜色鎮,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,간다잉 너의뒤로,10,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,馬科倫農場,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318888,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,개식 식스,22,WARLOCK,術士,術士,GNOME,地精,地精,1,,烏鴉嶺,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318710,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,개장수 킬러,12,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,결이 부부산적단,29,WARLOCK,術士,術士,GNOME,地精,地精,1,,諾姆瑞根,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,고기 방패입니다,24,WARRIOR,戰士,戰士,NIGHTELF,夜精靈,夜精靈,1,,赤脊山,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,고양이 마술사,4,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,공허의 셀리나,24,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,監獄,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,구슬 워니,12,PRIEST,牧師,牧師,GNOME,地精,地精,1,,碎石怪之谷,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,국머리 소밥,17,WARLOCK,術士,術士,GNOME,地精,地精,1,,塞爾薩瑪,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,그때 그사제,6,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,금모 사왕,18,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,銀泉礦坑,2026-10-18 18:10,2026-10-18 18:13,1792318251,1792318399,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,금빛 냥꾼,22,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,暮光谷,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,긔요미 사제,24,PRIEST,牧師,牧師,GNOME,地精,地精,1,,黑澗深淵,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,기름 주머니,15,MAGE,法師,法師,HUMAN,人類,人類,1,,族長之廳,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,기린이좋아 기린이,1,MAGE,法師,法師,HUMAN,人類,人類,1,OLYMPUS USA II,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,기사 슬기,14,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,鐵爐堡大門,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,기산걸 보물섬,2,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:16,2026-10-18 18:19,1792318563,1792318746,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,김애기 김애기,1,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,김정훈 마법사,4,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾洞穴,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,김천 김밥축제,4,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾洞穴,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,깡충 껑충,5,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,껌둥이 햄머,7,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,卡拉諾斯,2026-10-18 18:13,2026-10-18 18:17,1792318382,1792318628,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,꿀밤 맞을래,15,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,薩丁農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나는야 이뿌니,18,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鐵環挖掘場,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나돈 사젠다,11,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,石碑湖,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318893,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나떡볶인데 누가엎음,13,WARLOCK,術士,術士,HUMAN,人類,人類,1,,薄霧海,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나봉 나봉이,18,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,赤脊山,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나스 실바,30,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,荊棘谷,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318729,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나영 여보,22,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,影牙城堡,2026-10-18 18:16,2026-10-18 18:18,1792318574,1792318710,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,나인 데스,23,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暮色森林,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,남자 라면,3,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,내가 언니입니다,28,MAGE,法師,法師,GNOME,地精,地精,1,,艾爾文森林,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,내일은 뭐먹냐,26,MAGE,法師,法師,GNOME,地精,地精,1,,爛果園,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,낸데요 노을따라서,10,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,냥꾼 냥꾼꾼,13,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,達納蘇斯,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,냥꾼 매니아,8,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,냥꾼 워프,15,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,暴風城,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,넘버투 사제,5,PRIEST,牧師,牧師,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,네오 블루,7,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,OLYMPUS ROMPER ROOM,風莓低地,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318882,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,노움 고기,19,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,湖邊大道,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,노움 떽떽,14,WARLOCK,術士,術士,GNOME,地精,地精,1,스톰윈드 왕족,鐵爐堡,2026-10-18 18:17,2026-10-18 18:17,1792318639,1792318639,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,노움수행사제 보노보노,12,PRIEST,牧師,牧師,GNOME,地精,地精,1,,傑生農場,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,뉴비에요 처음행요,2,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,늘쌍 그래,20,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,奧迪拉蘭廢墟,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,니똥칼 라똥,3,MAGE,法師,法師,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,다크 소울,24,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,湖畔鎮,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318724,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,닥터 수정,12,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,달려볼까 마지막으로,16,PRIEST,牧師,牧師,GNOME,地精,地精,1,,哨兵嶺,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,달빛 치유,12,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,多蘭納爾,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,담배는 사제,18,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,哨兵嶺,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,데릭풀 리오,15,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,傑生農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,도랏나 트럼프,30,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,巴拉丁海灣,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,도리도리 맛도리,6,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,水晶湖,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,도즈 발레리,14,WARLOCK,術士,術士,HUMAN,人類,人類,1,,古博拉採掘場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,돌멩아 오늘도굴러보자,16,WARRIOR,戰士,戰士,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,돌아온 로켓단,11,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,古博拉採掘場,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318893,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,동굴 냥이,5,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,回音山礦坑,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,듀리한 우드,22,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,石堡,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,드럼통 사냥꾼,30,HUNTER,獵人,獵人,HUMAN,人類,人類,1,KOR Forever,濕地,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,딱대 짜샤,12,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,또르 냥끈,9,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,霧松避難所,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,똥꼬로 뿌왁,4,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾洞穴,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,똥싼 팬티,30,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,鐵爐堡,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,라이플맨 폴라,15,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,西部荒野,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,랭커 술사,4,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318870,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,레네딜 문윙,19,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,暮光海岸,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,레이린 흑마,10,WARLOCK,術士,術士,HUMAN,人類,人類,1,,石碑湖,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,루비와 리치,19,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,湖邊大道,2026-10-18 18:16,2026-10-18 18:30,1792318574,1792319415,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,마고리아 먹자골목,10,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,多蘭納爾,2026-10-18 18:17,2026-10-18 18:21,1792318633,1792318888,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,마우스 치워줘,6,WARLOCK,術士,術士,GNOME,地精,地精,1,,灰色洞穴,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,만취 냥꾼,14,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,맥스 토템,9,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,丹莫洛,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318888,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,맹맹 또또,18,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,鐵環挖掘場,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,맹인 노도적,4,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,머프 마미,16,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,멋쟁이 할아범,30,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,暴風城,2026-10-18 18:10,2026-10-18 18:13,1792318251,1792318399,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,메르 베르,19,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,모건 웨이,5,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,OLYMPUS USA II,寒脊山小徑,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,모차 파이프,14,PRIEST,牧師,牧師,GNOME,地精,地精,1,,古博拉採掘場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,무기농 망고,4,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾矗立之石,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,문만열고퇴근 지옥문지기,18,WARLOCK,術士,術士,GNOME,地精,地精,1,,暴風城,2026-10-18 18:13,2026-10-18 18:30,1792318399,1792319415,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,뭔대이거 무서워,10,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,風莓低地,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318888,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,미모 미묘,30,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,스톰윈드 왕족,鐵爐堡,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,미스터 봉삼,15,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,法布隆南瓜農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,방울 빵이,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,배리 간식,15,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,月溪鎮,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,백마와 흑마,4,WARLOCK,術士,術士,HUMAN,人類,人類,1,,回音山礦坑,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,버프 주세요,30,MAGE,法師,法師,GNOME,地精,地精,1,,影牙城堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,법사 쫑쫑,4,MAGE,法師,法師,HUMAN,人類,人類,1,,回音山礦坑,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318870,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,법사인생 인생머있나,18,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,복숭아 홍차,15,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,法布隆南瓜農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,북수리 개백수,17,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,斯通菲爾德農場,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,블랙 로사,20,WARLOCK,術士,術士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,블랙위도우 로니,8,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,비싸요 비싸요,1,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,빅베드 전사,17,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,黑海岸,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사냥 허기,6,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,卡拉諾斯,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사냥꾼 맛딜,16,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,暴風城,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사박 사박,15,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사제 토토,15,PRIEST,牧師,牧師,GNOME,地精,地精,1,,長灘,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사제 힘들다,29,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,西部海岸,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,사젠 디용,21,PRIEST,牧師,牧師,GNOME,地精,地精,1,,奧伯丁,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,산토리 가쿠빈,2,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:16,2026-10-18 18:19,1792318563,1792318746,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,산티아고 콤포스텔라,11,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,馬科倫農場,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318893,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,살려 는드림,28,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,丹莫德,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,생존 샤인,19,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,赤脊峽谷,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,서리 태콩,13,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,影風森林,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,석적피바다 돌돌,22,PRIEST,牧師,牧師,GNOME,地精,地精,1,,洛克莫丹,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,성기사 라니,26,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,長橋碼頭,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318724,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,성스러운빛 또또,8,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,石碑湖,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,성천사 라파엘,9,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,수산시장 도다리,15,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,OLYMPUS CATHOLICS,族長之廳,2026-10-18 18:13,2026-10-18 18:28,1792318382,1792319308,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,수성 자이,1,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,순두부찌개 존맛탱,5,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,술술 짱짱,26,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,暮色森林,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,스르륵꼬맹이 꼬맹이,27,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,濕地,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,시월십육일 생성,26,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,黑澗深淵,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,식우 지기,2,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,신성신성한 성기사,10,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,石碑湖,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318888,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,쌉꿀 거름,21,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,石堡高塔,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318710,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,쌍수헬창 프로틴쉐이커,7,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,水晶湖,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,아델 라이데,30,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,아재부기 사제,19,PRIEST,牧師,牧師,GNOME,地精,地精,1,,止水湖,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,안녕입니다 하세요,7,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318882,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,안산시 거름,18,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,死亡礦坑,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,앙칼진 곰탱이,18,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,死亡礦坑,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,애플 메이지,13,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:17,2026-10-18 18:17,1792318639,1792318639,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,애플 쿠우,30,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,鐵爐堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,양념 성산바다거북이,15,PRIEST,牧師,牧師,GNOME,地精,地精,1,,摩爾森農場,2026-10-18 18:17,2026-10-18 18:28,1792318639,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,양손 탱킹,8,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,霜鬃要塞,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,어둠 나루,14,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,族長之廳,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,언더씨 드루,10,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,達納蘇斯,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,엔젤두환 음머,15,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,月溪鎮,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,엘렌드릴 넬프,3,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:21,1792318746,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,영포티 법사,8,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德高地,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,영포티중년 알레한드로,2,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,옆집기사 골뱅이무침,24,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,暴風城,2026-10-18 18:10,2026-10-18 18:18,1792318251,1792318724,5,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오늘은 뭐먹지,27,WARLOCK,術士,術士,GNOME,地精,地精,1,,爛果園,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오랑캐 사냥꾼,1,HUNTER,獵人,獵人,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오러 소드,14,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,塞爾薩瑪,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오월의 종소리,17,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오토 팟코,1,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,오호라 전사,30,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,鐵爐堡,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,요노움 베리,18,PRIEST,牧師,牧師,GNOME,地精,地精,1,,達納蘇斯,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,욕심많은 엉클쌤,9,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,卡拉諾斯,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,우리동네 블랙핑크,14,MAGE,法師,法師,GNOME,地精,地精,1,,艾爾文森林,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,울랄라 세나,30,MAGE,法師,法師,HUMAN,人類,人類,1,,藍腮沼澤,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,원직 노을,6,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,은빛 그림자,30,PRIEST,牧師,牧師,GNOME,地精,地精,1,,希爾斯布萊德丘陵,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,응애 법사,15,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,法布隆南瓜農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,이거보여주려고 어그로끌었다,12,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,摩爾森農場,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,인천 짐승,13,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,OLYMPUS XIlI,法布隆南瓜農場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,인훈 워프,15,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,哨兵嶺,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,자주포 포탑,15,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,長灘,2026-10-18 18:21,2026-10-18 18:28,1792318910,1792319308,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,작은 고튜,5,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318628,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,저주 냥꾼이,12,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,達納蘇斯,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318893,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,전사 랍니다,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,스톰윈드 왕족,暴風城,2026-10-18 18:21,2026-10-18 18:21,1792318910,1792318910,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,전투 잠행,2,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:17,2026-10-18 18:19,1792318622,1792318746,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,제로 라임코크,14,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,法布隆南瓜農場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,주냔 도적,9,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,霧松避難所,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,주술사 만세,9,SHAMAN,薩滿,薩滿,DWARF,矮人,矮人,1,,諾姆瑞根,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,주아 주아,17,PRIEST,牧師,牧師,GNOME,地精,地精,1,,止水湖,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,지그 쟤그,10,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,多蘭納爾,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,지금이순간 마법처럼,20,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,死亡農地,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,지혜로운 드루와,19,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,石堡,2026-10-18 18:10,2026-10-18 18:30,1792318251,1792319415,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,진한 커피,16,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,暴風城,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,질보다양선호 냥꾼,30,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,礦道地鐵,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,쪼매난 멋쟁이,5,WARLOCK,術士,術士,GNOME,地精,地精,1,,寒脊山谷,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318877,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,쭈끄 전사,3,WARRIOR,戰士,戰士,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:17,2026-10-18 18:21,1792318622,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,쭈압 쭈압,14,PRIEST,牧師,牧師,HUMAN,人類,人類,1,,暴風港,2026-10-18 18:13,2026-10-18 18:21,1792318382,1792318910,4,DenizensTW.lua
+Classic Beta PvP 2,Alliance,천국의 안티,30,PRIEST,牧師,牧師,GNOME,地精,地精,1,,達拉然,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,천마산 곰주먹,11,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,泰達希爾,2026-10-18 18:10,2026-10-18 18:21,1792318251,1792318893,6,DenizensTW.lua
+Classic Beta PvP 2,Alliance,체스터 베닝턴,8,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,布萊克威爾南瓜田,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,치명적인 흑장미,5,ROGUE,盜賊,盜賊,DWARF,矮人,矮人,1,,寒脊山谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,치유 의빛,25,PRIEST,牧師,牧師,NIGHTELF,夜精靈,夜精靈,1,,烏鴉嶺墓園,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,치즈 테비,17,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,長灘,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,카르 도르,29,ROGUE,盜賊,盜賊,NIGHTELF,夜精靈,夜精靈,1,,維爾加挖掘場,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318729,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,카르마 리니,6,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾林地,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,카프라 세나,10,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,達納蘇斯,2026-10-18 18:21,2026-10-18 18:21,1792318888,1792318888,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,케이쉬 전사,13,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,薩丁農場,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,콩닥 콩닥행,15,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,族長之廳,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,크리스 범스태드,5,HUNTER,獵人,獵人,NIGHTELF,夜精靈,夜精靈,1,,幽影谷,2026-10-18 18:21,2026-10-18 18:21,1792318877,1792318877,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,클래시킹덤 매니아,26,WARLOCK,術士,術士,GNOME,地精,地精,1,,暮色森林,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,키무 미끄,25,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:16,2026-10-18 18:18,1792318580,1792318724,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,탕슉 좋아,11,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,夜爪洞穴,2026-10-18 18:16,2026-10-18 18:21,1792318569,1792318893,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,터미네이터 타이거,30,HUNTER,獵人,獵人,HUMAN,人類,人類,1,스톰윈드 왕족,荊棘谷,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,테드 라실,15,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,暴風城,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,테러 리스트,15,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,摩爾森農場,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,테스트 얼라이언스,28,WARRIOR,戰士,戰士,NIGHTELF,夜精靈,夜精靈,1,,荒棄鬼屋,2026-10-18 18:18,2026-10-18 18:18,1792318729,1792318729,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,테크 노빠,30,WARLOCK,術士,術士,HUMAN,人類,人類,1,,深水旅店,2026-10-18 18:16,2026-10-18 18:16,1792318580,1792318580,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,테토는 핑크,14,PRIEST,牧師,牧師,GNOME,地精,地精,1,,鐵爐堡,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,파송송 흑마탁,13,WARLOCK,術士,術士,GNOME,地精,地精,1,,洛克莫丹,2026-10-18 18:17,2026-10-18 18:21,1792318639,1792318910,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,펩펩시시 제로제로,18,MAGE,法師,法師,GNOME,地精,地精,1,,灰爪山,2026-10-18 18:30,2026-10-18 18:30,1792319415,1792319415,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,푸른 늑이,24,HUNTER,獵人,獵人,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,烏鴉嶺墓園,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,하늘에서 별이쏟아지다,3,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:17,2026-10-18 18:17,1792318622,1792318622,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,하비 드루이드,16,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,鐵爐堡,2026-10-18 18:28,2026-10-18 18:28,1792319323,1792319323,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,할배 검스,16,WARRIOR,戰士,戰士,GNOME,地精,地精,1,,鐵爐堡,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,함마 드릴,3,WARRIOR,戰士,戰士,HUMAN,人類,人類,1,,北郡山谷,2026-10-18 18:19,2026-10-18 18:21,1792318746,1792318870,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,해적이 드루이드,15,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,長橋碼頭,2026-10-18 18:28,2026-10-18 18:28,1792319308,1792319308,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,핵주먹 미짱,21,ROGUE,盜賊,盜賊,GNOME,地精,地精,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,헬라니 클라우드싱어,30,ROGUE,盜賊,盜賊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,拉文霍德莊園,2026-10-18 18:13,2026-10-18 18:18,1792318399,1792318729,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,헬샷 헌트,6,HUNTER,獵人,獵人,HUMAN,人類,人類,1,,水晶湖,2026-10-18 18:16,2026-10-18 18:21,1792318563,1792318877,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,호용 심지,23,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,湖畔鎮,2026-10-18 18:18,2026-10-18 18:18,1792318710,1792318710,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,화성 갈끄니까잇,4,DRUID,德魯伊,德魯伊,NIGHTELF,夜精靈,夜精靈,1,,奧達希爾,2026-10-18 18:21,2026-10-18 18:21,1792318870,1792318870,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,화신 엘프,7,MAGE,法師,法師,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,申德村,2026-10-18 18:21,2026-10-18 18:21,1792318882,1792318882,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,회드 스카이본,2,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,坦德爾村,2026-10-18 18:19,2026-10-18 18:19,1792318746,1792318746,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,흑마 빛령,17,WARLOCK,術士,術士,GNOME,地精,地精,1,,薩丁農場,2026-10-18 18:17,2026-10-18 18:28,1792318645,1792319323,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,흑탱이는 도적,11,ROGUE,盜賊,盜賊,HUMAN,人類,人類,1,,閃金鎮,2026-10-18 18:21,2026-10-18 18:21,1792318893,1792318893,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,흑형 전사,25,PALADIN,聖騎士,聖騎士,HUMAN,人類,人類,1,,黑澗深淵,2026-10-18 18:18,2026-10-18 18:18,1792318724,1792318724,1,DenizensTW.lua
+Classic Beta PvP 2,Alliance,흥해라야드 흥흥,19,DRUID,德魯伊,德魯伊,SKYBORNE,天裔精靈,高天盟天裔精靈,1,,月溪鎮,2026-10-18 18:17,2026-10-18 18:30,1792318645,1792319415,2,DenizensTW.lua
+Classic Beta PvP 2,Alliance,힐카스 망구,17,PRIEST,牧師,牧師,GNOME,地精,地精,1,Horde Serial Killer,夜色鎮,2026-10-18 18:16,2026-10-18 18:28,1792318574,1792319323,3,DenizensTW.lua
+Classic Beta PvP 2,Alliance,힘좋은 할배,16,PALADIN,聖騎士,聖騎士,DWARF,矮人,矮人,1,,鐵爐堡,2026-10-18 18:17,2026-10-18 18:17,1792318645,1792318645,1,DenizensTW.lua

@@ -1,0 +1,3900 @@
+{
+ "meta": {
+  "product": "wow_classic_beta",
+  "version": "1.60.1.70450",
+  "hotfix": {
+   "build": 70450,
+   "applied": 5,
+   "removed": 0
+  },
+  "generated_at": "2026-10-19T01:51:37+08:00",
+  "note": "地城、團隊副本、首領名稱與出場順序來自永恆客戶端；遊戲檔裡沒有掉落表。"
+ },
+ "instances": [
+  {
+   "map_id": 13,
+   "name": "Test Dungeon",
+   "directory": "test",
+   "kind": "地城",
+   "max_players": 100,
+   "normal_players": 100,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [
+    {
+     "id": 3078,
+     "name": "拉胡茲",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 100,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 29,
+   "name": "CashTest",
+   "directory": "TEST_01",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 10,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": []
+  },
+  {
+   "map_id": 33,
+   "name": "影牙城堡",
+   "directory": "Shadowfang",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2748,
+     "name": "雷希戈爾",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2749,
+     "name": "『屠夫』銳爪",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2750,
+     "name": "席瓦萊恩男爵",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2751,
+     "name": "指揮官斯普林瓦爾",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2752,
+     "name": "『盲眼守衛』奧杜",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2753,
+     "name": "『吞噬者』芬魯斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2754,
+     "name": "狼王南杜斯",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2755,
+     "name": "大法師阿魯高",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有11級以上的玩家才能進入。",
+     "content_tuning_id": 5249
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 3,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 34,
+   "name": "暴風城監獄",
+   "directory": "StormwindJail",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2756,
+     "name": "可怕的塔高爾",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2757,
+     "name": "卡姆·深怒",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2758,
+     "name": "哈姆霍克",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2759,
+     "name": "迪克斯特·瓦德",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2760,
+     "name": "巴基爾·斯瑞德",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有15級以上的玩家才能進入。",
+     "content_tuning_id": 5250
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 4,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 214,
+     "difficulty_name": "DNT - Internal only",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 36,
+   "name": "死亡礦坑",
+   "directory": "DeadminesInstance",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2741,
+     "name": "拉克佐",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2742,
+     "name": "斯尼德",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3676,
+     "name": "礦工強森",
+     "order": 1500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2743,
+     "name": "基爾尼格",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2744,
+     "name": "綠皮隊長",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2745,
+     "name": "重拳先生",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2746,
+     "name": "餅乾",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2747,
+     "name": "艾德溫‧范克里夫",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有10級以上的玩家才能進入。",
+     "content_tuning_id": 5240
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 5,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 213,
+     "difficulty_name": "恆龍",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 24,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 43,
+   "name": "哀嚎洞穴",
+   "directory": "WailingCaverns",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 585,
+     "name": "安娜科德拉",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 586,
+     "name": "考布萊恩",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 587,
+     "name": "克雷什",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 588,
+     "name": "皮薩斯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 589,
+     "name": "斯卡姆",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 590,
+     "name": "瑟芬迪斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 591,
+     "name": "永生的沃爾丹",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 592,
+     "name": "吞噬者穆坦努斯",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有10級以上的玩家才能進入。",
+     "content_tuning_id": 5254
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 6,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 44,
+   "name": "<unused> Monastery",
+   "directory": "Monastery",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 10,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 47,
+   "name": "剃刀沼澤",
+   "directory": "RazorfenKraulInstance",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2773,
+     "name": "魯古格",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2774,
+     "name": "阿葛金‧棘咒",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2775,
+     "name": "亡語者賈格巴",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2776,
+     "name": "拉姆塔斯主宰",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2777,
+     "name": "暴怒的阿迦賽羅斯",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2778,
+     "name": "卡爾加‧刺肋",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有25級以上的玩家才能進入。",
+     "content_tuning_id": 5246
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 7,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 48,
+   "name": "黑澗深淵",
+   "directory": "Blackfathom",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2916,
+     "name": "加摩拉",
+     "order": -6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2915,
+     "name": "薩利維絲女士",
+     "order": -5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2914,
+     "name": "格里哈斯特",
+     "order": -4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2913,
+     "name": "洛古斯·傑特",
+     "order": -3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2912,
+     "name": "老瑟拉吉斯",
+     "order": -2000,
+     "difficulty": 1,
+     "faction": -1
+    },
+    {
+     "id": 2911,
+     "name": "暮光領主克爾里斯",
+     "order": -1000,
+     "difficulty": 1,
+     "faction": -1
+    },
+    {
+     "id": 2910,
+     "name": "阿庫麥爾",
+     "order": 0,
+     "difficulty": 1,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有15級以上的玩家才能進入。",
+     "content_tuning_id": 5237
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 8,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 198,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每 3 天",
+     "reset_code": 3,
+     "lock_id": 21,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 70,
+   "name": "奧達曼",
+   "directory": "Uldaman",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 547,
+     "name": "魯維羅什",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 548,
+     "name": "失蹤的矮人",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 549,
+     "name": "艾隆納亞",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1887,
+     "name": "黑曜石哨兵",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 551,
+     "name": "古代的石頭看守者",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 552,
+     "name": "加加恩·火錘",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 553,
+     "name": "格瑞姆洛克",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 554,
+     "name": "阿札達斯",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有30級以上的玩家才能進入。",
+     "content_tuning_id": 5253
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 9,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 90,
+   "name": "諾姆瑞根",
+   "directory": "GnomeragonInstance",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2768,
+     "name": "格魯比斯",
+     "order": 0,
+     "difficulty": 1,
+     "faction": -1
+    },
+    {
+     "id": 2769,
+     "name": "粘性輻射塵",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2770,
+     "name": "電刑器6000型",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2771,
+     "name": "群體打擊者9-60",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2772,
+     "name": "機電師瑟瑪普拉格",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有19級以上的玩家才能進入。",
+     "content_tuning_id": 5242
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 10,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 198,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每 3 天",
+     "reset_code": 3,
+     "lock_id": 22,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 109,
+   "name": "沉沒的神廟",
+   "directory": "SunkenTemple",
+   "kind": "地城",
+   "max_players": 20,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3582,
+     "name": "阿塔拉利恩",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3583,
+     "name": "哈卡的化身",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3584,
+     "name": "伊蘭尼庫斯之影",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3585,
+     "name": "哈札斯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3586,
+     "name": "摩弗拉斯",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3587,
+     "name": "編織者",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3588,
+     "name": "德姆塞卡爾",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3589,
+     "name": "『預言者』迦瑪蘭",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有45級以上的玩家才能進入。",
+     "content_tuning_id": 5252
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 11,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 215,
+     "difficulty_name": "普通",
+     "max_players": 20,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 23,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 129,
+   "name": "剃刀高地",
+   "directory": "RazorfenDowns",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2780,
+     "name": "圖特卡什",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2781,
+     "name": "腐爛的普雷莫爾",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2782,
+     "name": "火眼莫德雷斯",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2783,
+     "name": "拉戈斯諾特",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2784,
+     "name": "暴食者",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2785,
+     "name": "『寒冰使者』亞門納爾",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有35級以上的玩家才能進入。",
+     "content_tuning_id": 5245
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 12,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 169,
+   "name": "翡翠夢境",
+   "directory": "EmeraldDream",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 189,
+   "name": "血色修道院",
+   "directory": "MonasteryInstances",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 444,
+     "name": "審訊員韋沙斯",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2779,
+     "name": "血法師薩爾諾斯",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 446,
+     "name": "馴犬者洛克希",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 447,
+     "name": "秘法師杜安",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 448,
+     "name": "赫洛德",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 449,
+     "name": "高等審判官法爾班克斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 450,
+     "name": "高等審判官懷特邁恩",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有20級以上的玩家才能進入。",
+     "content_tuning_id": 5247
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 13,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 209,
+   "name": "祖爾法拉克",
+   "directory": "TanarisInstance",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 593,
+     "name": "水占師維蕾薩",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 594,
+     "name": "加茲瑞拉",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 595,
+     "name": "安圖蘇爾",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 596,
+     "name": "殉教者塞卡",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 597,
+     "name": "巫醫祖穆拉恩",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 598,
+     "name": "耐克魯姆",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 599,
+     "name": "暗影祭司塞瑟斯",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 600,
+     "name": "烏克茲·沙頂",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有39級以上的玩家才能進入。",
+     "content_tuning_id": 5255
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 14,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 5255
+    }
+   ]
+  },
+  {
+   "map_id": 229,
+   "name": "黑石塔",
+   "directory": "BlackRockSpire",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 10,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 267,
+     "name": "歐莫克大王",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 268,
+     "name": "暗影獵手沃許加斯",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 269,
+     "name": "指揮官沃恩",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 270,
+     "name": "煙網蛛后",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 271,
+     "name": "烏洛克",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 272,
+     "name": "軍需官茲格雷斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 274,
+     "name": "哈雷肯",
+     "order": 5500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 273,
+     "name": "奴役者基茲盧爾",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 275,
+     "name": "維姆薩拉克主宰",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3062,
+     "name": "烈焰衛士艾博希爾",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3063,
+     "name": "大酋長雷德·黑手",
+     "order": 10000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3068,
+     "name": "比斯巨獸",
+     "order": 11000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3069,
+     "name": "達基薩斯將軍",
+     "order": 12000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3070,
+     "name": "瓦薩拉克領主",
+     "order": 13000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有48級以上的玩家才能進入。",
+     "content_tuning_id": 5239
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 35,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 230,
+   "name": "黑石深淵",
+   "directory": "BlackrockDepths",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 227,
+     "name": "審訊官格斯塔恩",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 228,
+     "name": "洛考爾",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 229,
+     "name": "馴犬者格雷布瑪爾",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 230,
+     "name": "秩序競技場",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 231,
+     "name": "控火師羅格雷恩",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 232,
+     "name": "伊森迪奧斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 233,
+     "name": "典獄官斯迪爾基斯",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 234,
+     "name": "弗諾斯·達克維爾",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 235,
+     "name": "貝爾加",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 236,
+     "name": "安格弗將軍",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 237,
+     "name": "傀儡統帥阿格曼奇",
+     "order": 10000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 238,
+     "name": "霍爾雷·黑鬚",
+     "order": 11000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 239,
+     "name": "法拉克斯",
+     "order": 12000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 240,
+     "name": "雷布里·斯庫比格特",
+     "order": 13000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 241,
+     "name": "普拉格",
+     "order": 14000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2791,
+     "name": "銀行",
+     "order": 14500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 242,
+     "name": "弗萊拉斯大使",
+     "order": 15000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 243,
+     "name": "七賢",
+     "order": 16000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 244,
+     "name": "瑪格姆斯",
+     "order": 17000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2789,
+     "name": "茉艾拉·銅鬚公主",
+     "order": 18000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2790,
+     "name": "達格蘭‧索瑞森大帝",
+     "order": 19000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有42級以上的玩家才能進入。",
+     "content_tuning_id": 5238
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 17,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 249,
+   "name": "奧妮克希亞的巢穴",
+   "directory": "OnyxiaLairInstance",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每 5 天",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 1084,
+     "name": "奧妮克希亞",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每 5 天",
+     "reset_code": 4,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 186,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 28,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 269,
+   "name": "時光之穴",
+   "directory": "CavernsOfTime",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 10,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有65級以上的玩家才能進入。",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 289,
+   "name": "通靈學院",
+   "directory": "SchoolofNecromancy",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2805,
+     "name": "基爾圖諾斯",
+     "order": -1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2804,
+     "name": "詹迪斯·巴羅夫",
+     "order": -500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2811,
+     "name": "血骨傀儡",
+     "order": -250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2809,
+     "name": "馬杜克·布萊克波爾",
+     "order": -125,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2813,
+     "name": "維克圖斯",
+     "order": -62,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3055,
+     "name": "科爾莫克",
+     "order": -46,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2810,
+     "name": "萊斯‧霜語",
+     "order": -31,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2803,
+     "name": "講師瑪麗希亞",
+     "order": -15,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2802,
+     "name": "瑟爾林·卡斯迪諾夫教授",
+     "order": -7,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2808,
+     "name": "博學者普克爾特",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2812,
+     "name": "拉文尼亞",
+     "order": 11000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2807,
+     "name": "阿萊克斯·巴羅夫領主",
+     "order": 11250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2806,
+     "name": "伊露希亞·巴羅夫女士",
+     "order": 11500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2801,
+     "name": "黑暗院長加丁",
+     "order": 12000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有33級以上的玩家才能進入。",
+     "content_tuning_id": 5248
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 36,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 309,
+   "name": "祖爾格拉布",
+   "directory": "Zul'gurub",
+   "kind": "團隊副本",
+   "max_players": 20,
+   "normal_players": 20,
+   "reset": "每 3 天",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 785,
+     "name": "高階祭司耶克里克",
+     "order": -1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 784,
+     "name": "高階祭司溫諾希斯",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 786,
+     "name": "高階祭司瑪俐",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 787,
+     "name": "血領主曼多基爾",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 788,
+     "name": "瘋狂之緣",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 789,
+     "name": "高階祭司塞卡爾",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 790,
+     "name": "加茲蘭卡",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 791,
+     "name": "高階祭司阿洛克",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 792,
+     "name": "妖術師金度",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 793,
+     "name": "哈卡",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 148,
+     "difficulty_name": "20人",
+     "max_players": 20,
+     "reset": "每 3 天",
+     "reset_code": 3,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 185,
+     "difficulty_name": "20人",
+     "max_players": 20,
+     "reset": "每 3 天",
+     "reset_code": 3,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 197,
+     "difficulty_name": "10人",
+     "max_players": 10,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 30,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 226,
+     "difficulty_name": "20人",
+     "max_players": 20,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 32,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 329,
+   "name": "斯坦索姆",
+   "directory": "Stratholme",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 473,
+     "name": "弗雷斯特恩",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 474,
+     "name": "悲慘的提米",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 476,
+     "name": "狂熱的瑪洛爾",
+     "order": 2500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 475,
+     "name": "砲手威利",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 477,
+     "name": "檔案管理員加爾福特",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 478,
+     "name": "巴納札爾",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 472,
+     "name": "不可寬恕者",
+     "order": 6500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 479,
+     "name": "安娜絲塔麗男爵夫人",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 480,
+     "name": "奈幽布恩坎",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 481,
+     "name": "蒼白的瑪勒基",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 482,
+     "name": "巴瑟拉斯鎮長",
+     "order": 10000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 483,
+     "name": "吞嚥者拉姆斯登",
+     "order": 11000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 484,
+     "name": "瑞文戴爾男爵",
+     "order": 12000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2795,
+     "name": "黑衣守衛劍類鍛造師",
+     "order": 13000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2796,
+     "name": "紅衣鑄錘師",
+     "order": 14000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2797,
+     "name": "艾茲拉‧格里姆",
+     "order": 15000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2798,
+     "name": "郵政局長瑪羅恩",
+     "order": 16000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2799,
+     "name": "斯庫爾",
+     "order": 17000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2800,
+     "name": "石脊",
+     "order": 18000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有37級以上的玩家才能進入。",
+     "content_tuning_id": 5251
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 37,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 349,
+   "name": "瑪拉頓",
+   "directory": "Mauradon",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 422,
+     "name": "諾克賽恩",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 423,
+     "name": "銳刺鞭笞者",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 427,
+     "name": "技工吉茲洛克",
+     "order": 1500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 424,
+     "name": "維利塔恩領主",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 425,
+     "name": "被詛咒的塞雷布拉斯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 426,
+     "name": "蘭斯利德",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 428,
+     "name": "洛特格里普",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 429,
+     "name": "瑟萊德絲公主",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有25級以上的玩家才能進入。",
+     "content_tuning_id": 5243
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 15,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 389,
+   "name": "怒焰裂谷",
+   "directory": "OrgrimmarInstance",
+   "kind": "地城",
+   "max_players": 10,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 2732,
+     "name": "奧格弗林特",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2733,
+     "name": "『飢餓者』塔拉加曼",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2734,
+     "name": "『塑能師』耶戈什",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2735,
+     "name": "巴札蘭",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有10級以上的玩家才能進入。",
+     "content_tuning_id": 5244
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 10,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 16,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 409,
+   "name": "熔火之心",
+   "directory": "MoltenCore",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每週",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 663,
+     "name": "魯西弗隆",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 664,
+     "name": "瑪格曼達",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 665,
+     "name": "基赫納斯",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 666,
+     "name": "加爾",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 667,
+     "name": "沙斯拉爾",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 668,
+     "name": "迦頓男爵",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 669,
+     "name": "薩弗隆先驅者",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 670,
+     "name": "焚化者古雷曼格",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 671,
+     "name": "管理者埃克索圖斯",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 672,
+     "name": "拉格納羅斯",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "只有50級以上的玩家才能進入。",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 186,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 226,
+     "difficulty_name": "20人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 25,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 429,
+   "name": "厄運之槌",
+   "directory": "DireMaul",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 343,
+     "name": "瑟雷姆·刺蹄",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 344,
+     "name": "海多斯博恩",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 345,
+     "name": "蕾瑟塔蒂絲",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2792,
+     "name": "普希林",
+     "order": 2500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 346,
+     "name": "奧茲恩",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 350,
+     "name": "特迪斯·扭木",
+     "order": 3500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 347,
+     "name": "伊琳娜·鴉橡",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 348,
+     "name": "博學者卡雷迪斯",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 349,
+     "name": "伊莫塔爾",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 361,
+     "name": "托塞德林王子",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 362,
+     "name": "衛兵摩爾達",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 363,
+     "name": "踐踏者克雷格",
+     "order": 9000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 364,
+     "name": "衛兵芬古斯",
+     "order": 10000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 365,
+     "name": "衛兵斯里基克",
+     "order": 11000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 366,
+     "name": "克羅卡斯",
+     "order": 12000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 367,
+     "name": "觀察者克魯什",
+     "order": 13000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 368,
+     "name": "戈多克大王",
+     "order": 14000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2793,
+     "name": "赫爾努拉斯領主",
+     "order": 15000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 2794,
+     "name": "蘇斯",
+     "order": 16000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "只有31級以上的玩家才能進入。",
+     "content_tuning_id": 5241
+    },
+    {
+     "difficulty": 184,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 38,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 469,
+   "name": "黑翼之巢",
+   "directory": "BlackwingLair",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每週",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 610,
+     "name": "狂野的拉佐格爾",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 611,
+     "name": "墮落的瓦拉斯塔茲",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 612,
+     "name": "勒西雷爾",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 613,
+     "name": "費爾默",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 614,
+     "name": "埃博諾克",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 615,
+     "name": "弗萊格爾",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 616,
+     "name": "克洛瑪古斯",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 617,
+     "name": "奈法利安",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 186,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 231,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 509,
+   "name": "安其拉廢墟",
+   "directory": "AhnQiraj",
+   "kind": "團隊副本",
+   "max_players": 20,
+   "normal_players": 20,
+   "reset": "每 3 天",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 718,
+     "name": "庫林納克斯",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 719,
+     "name": "拉賈克斯將軍",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 720,
+     "name": "莫阿姆",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 721,
+     "name": "吞咽者布魯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 722,
+     "name": "狩獵者阿亞米斯",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 723,
+     "name": "無疤者奧斯里安",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 148,
+     "difficulty_name": "20人",
+     "max_players": 20,
+     "reset": "每 3 天",
+     "reset_code": 3,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 185,
+     "difficulty_name": "20人",
+     "max_players": 20,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 531,
+   "name": "安其拉神廟",
+   "directory": "AhnQirajTemple",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每週",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 709,
+     "name": "預言者斯克拉姆",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 710,
+     "name": "異種蠍皇族",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 711,
+     "name": "沙爾圖拉",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 712,
+     "name": "頑強的范克里斯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 713,
+     "name": "維希度斯",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 714,
+     "name": "哈霍蘭公主",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 715,
+     "name": "雙子帝王",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 716,
+     "name": "奧羅",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 717,
+     "name": "克蘇恩",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 186,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 533,
+   "name": "納克薩瑪斯",
+   "directory": "Stratholme Raid",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每週",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 1107,
+     "name": "阿努比瑞克漢",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1110,
+     "name": "大寡婦費琳娜",
+     "order": 250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1116,
+     "name": "梅克絲娜",
+     "order": 312,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1117,
+     "name": "瘟疫者諾斯",
+     "order": 343,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1112,
+     "name": "骯髒者海根",
+     "order": 375,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1115,
+     "name": "洛斯伯",
+     "order": 406,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1113,
+     "name": "講師拉祖維斯",
+     "order": 437,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1109,
+     "name": "收割者高希",
+     "order": 500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1121,
+     "name": "四騎士",
+     "order": 562,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1118,
+     "name": "縫補者",
+     "order": 625,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1111,
+     "name": "葛羅巴斯",
+     "order": 750,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1108,
+     "name": "古魯斯",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1120,
+     "name": "泰迪斯",
+     "order": 1250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1119,
+     "name": "薩菲隆",
+     "order": 1500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 1114,
+     "name": "科爾蘇加德",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 186,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2720,
+   "name": "焦灼盆地",
+   "directory": "2720",
+   "kind": "地城",
+   "max_players": 20,
+   "normal_players": 20,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 20,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2784,
+   "name": "屠魔峽谷",
+   "directory": "2784",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3023,
+     "name": "獰根",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3028,
+     "name": "毀滅者的怨靈",
+     "order": 500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3029,
+     "name": "吉爾巴戈布",
+     "order": 750,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3030,
+     "name": "派蘭尼斯",
+     "order": 875,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3024,
+     "name": "『追尋者』迪亞索魯斯",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3031,
+     "name": "地獄吼的幻影",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3080,
+     "name": "亞茲加洛斯",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2789,
+   "name": "腐爛之痕",
+   "directory": "2789",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "不明（代碼 5）",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3026,
+     "name": "卡札克領主",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 26,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2791,
+   "name": "暴風崖",
+   "directory": "2791",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "不明（代碼 5）",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3027,
+     "name": "艾索雷苟斯",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 27,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2804,
+   "name": "水晶谷",
+   "directory": "2804",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "不明（代碼 5）",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3079,
+     "name": "桑德蘭王子",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 29,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2806,
+   "name": "暗影堡",
+   "directory": "2806",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2807,
+   "name": "燃燒的安多哈爾",
+   "directory": "2807",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2817,
+   "name": "星殞獸穴",
+   "directory": "2817",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2832,
+   "name": "夢魘林地",
+   "directory": "2832",
+   "kind": "團隊副本",
+   "max_players": 25,
+   "normal_players": 25,
+   "reset": "不明（代碼 5）",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3111,
+     "name": "艾莫莉絲",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3112,
+     "name": "雷索",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3113,
+     "name": "泰拉爾",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3114,
+     "name": "伊索德雷",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 25,
+     "reset": "不明（代碼 5）",
+     "reset_code": 5,
+     "lock_id": 31,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2853,
+   "name": "逆風小徑",
+   "directory": "2853",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 207,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2856,
+   "name": "血色領區",
+   "directory": "2856",
+   "kind": "團隊副本",
+   "max_players": 40,
+   "normal_players": 40,
+   "reset": "每週",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3185,
+     "name": "巴納札爾",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3187,
+     "name": "碧翠絲",
+     "order": 500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3196,
+     "name": "野獸大師",
+     "order": 875,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3186,
+     "name": "索利史卓莎",
+     "order": 906,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3197,
+     "name": "梅森",
+     "order": 937,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3188,
+     "name": "重生議會",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3190,
+     "name": "莉莉安‧佛斯",
+     "order": 2500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3189,
+     "name": "凱爾多蘭",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 9,
+     "difficulty_name": "40人",
+     "max_players": 40,
+     "reset": "每週",
+     "reset_code": 2,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2875,
+   "name": "卡拉贊墓穴",
+   "directory": "2875",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "每天",
+   "in_dungeon_finder": false,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3141,
+     "name": "罪惡使者",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3146,
+     "name": "蔓延詛咒",
+     "order": 250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3144,
+     "name": "三隻小狼",
+     "order": 500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3145,
+     "name": "黑騎兵",
+     "order": 750,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3143,
+     "name": "卡隆",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3152,
+     "name": "安克蒙",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3168,
+     "name": "漢斯與格雷塔",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3169,
+     "name": "醜布林",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3170,
+     "name": "凱基‧馬里拉",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3171,
+     "name": "莎露‧馬里拉",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3172,
+     "name": "巴里安‧馬里拉",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2902,
+   "name": "甲蟲之台",
+   "directory": "2902",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2921,
+   "name": "納克薩瑪斯",
+   "directory": "2921",
+   "kind": "地城",
+   "max_players": 1,
+   "normal_players": 1,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [
+    {
+     "id": 3296,
+     "name": "莫格萊尼之魂",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 1,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2959,
+   "name": "達拉然城",
+   "directory": "2959",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3298,
+     "name": "秘法異象",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3299,
+     "name": "魔化古樹",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3300,
+     "name": "法力吞噬者",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3301,
+     "name": "法力元素",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3302,
+     "name": "不穩定的哨兵",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3303,
+     "name": "大法師之影",
+     "order": 5000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3310,
+     "name": "『忽視者』林恩",
+     "order": 6000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3311,
+     "name": "『墓地騎士』亞崔希斯",
+     "order": 7000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3312,
+     "name": "法力怨靈",
+     "order": 8000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 4512
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 41,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2998,
+   "name": "挖掘場：濕地",
+   "directory": "2998",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3480,
+     "name": "鹽脊",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3481,
+     "name": "蔭牙",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3644,
+     "name": "高地之懼",
+     "order": 1500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3482,
+     "name": "聖物守護者",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 42,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 2999,
+   "name": "羅德隆廢墟",
+   "directory": "2999",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3353,
+     "name": "枯萎之牙",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3357,
+     "name": "被棄者",
+     "order": 250,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3355,
+     "name": "屠夫",
+     "order": 500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3354,
+     "name": "拉斯梅爾",
+     "order": 1000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3408,
+     "name": "羅德隆隊長",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3411,
+     "name": "邪惡的維多",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3412,
+     "name": "布喬克",
+     "order": 4000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 5256
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 39,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 3065,
+   "name": "族長之廳",
+   "directory": "3065",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": true,
+   "unused": false,
+   "bosses": [
+    {
+     "id": 3493,
+     "name": "法爾椎‧安威瑪",
+     "order": 0,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3495,
+     "name": "英弗努斯",
+     "order": 2000,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3494,
+     "name": "掠奪者",
+     "order": 2500,
+     "difficulty": 0,
+     "faction": -1
+    },
+    {
+     "id": 3496,
+     "name": "杜爾根‧戴格哈默",
+     "order": 3000,
+     "difficulty": 0,
+     "faction": -1
+    }
+   ],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 7000
+    },
+    {
+     "difficulty": 201,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "每天",
+     "reset_code": 1,
+     "lock_id": 40,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  },
+  {
+   "map_id": 3109,
+   "name": "密斯特曼托莊園",
+   "directory": "3109",
+   "kind": "地城",
+   "max_players": 5,
+   "normal_players": 5,
+   "reset": "",
+   "in_dungeon_finder": false,
+   "unused": true,
+   "bosses": [],
+   "modes": [
+    {
+     "difficulty": 1,
+     "difficulty_name": "普通",
+     "max_players": 5,
+     "reset": "",
+     "reset_code": 0,
+     "lock_id": 0,
+     "entry_message": "",
+     "content_tuning_id": 0
+    }
+   ]
+  }
+ ]
+}

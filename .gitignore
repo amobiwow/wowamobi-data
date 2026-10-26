@@ -1,0 +1,13 @@
+# 阿莫比資料備份（amobiwow/wowamobi-data，私人）
+# 密碼、金鑰絕對不進來（.env 請另外存在密碼管理器或隨身碟）
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+id_*
+# 網路上隨時可以重新下載的（經典版參考資料庫，GPL-2.0）
+vmangos-db-4641790/
+# 執行中的暫存
+*.lock
+*.tmp

@@ -1,0 +1,24 @@
+10/24 12:42  排程正常，今天第一次檢查（拍賣場存檔 10/22 09:03 寫入；普查存檔 10/22 09:03 寫入）。
+10/24 12:42  拍賣場：存檔有更新，但裡面還沒有可以上傳的價格（打開拍賣場掃描完、/reload 或登出後才會有）。
+10/24 13:12  掉落：讀存檔失敗，下一輪再試。
+               node:internal/modules/cjs/loader:1568
+                 throw err;
+                 ^
+               Error: Cannot find module 'D:\魔獸網站\site\scripts\upload-loot.mjs'
+                   at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+                   at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+                   at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+                   at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+                   at Module._load (node:internal/modules/cjs/loader:1341:5)
+                   at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+                   at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+                   at node:internal/main/run_main_module:33:47 {
+                 code: 'MODULE_NOT_FOUND',
+                 requireStack: []
+               }
+               Node.js v24.21.0
+10/24 13:20  掉落：存檔有更新，但沒有 11/5 開服後的首領擊殺可以上傳（開服前的封測、壓測不傳）。
+10/25 00:00  排程正常，今天第一次檢查（拍賣場存檔 10/22 09:03 寫入；普查存檔 10/22 09:03 寫入；掉落存檔 10/22 09:03 寫入）。
+10/25 07:10  公會名單：D:\魔獸網站\.env 裡沒有 ROSTER_KEY，先不上傳。請從原本那台電腦的安裝包重新安裝（不要自己產生新的）。
+10/26 00:00  排程正常，今天第一次檢查（拍賣場存檔 10/22 09:03 寫入；普查存檔 10/22 09:03 寫入；掉落存檔 10/22 09:03 寫入；公會名單存檔 還沒有）。
+10/27 00:00  排程正常，今天第一次檢查（拍賣場存檔 10/22 09:03 寫入；普查存檔 10/22 09:03 寫入；掉落存檔 10/22 09:03 寫入；公會名單存檔 還沒有；榮譽擊殺存檔 還沒有）。

@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Amobi Loot |cffe9cb88阿莫比掉落|r
+## Title-zhTW: |cffe9cb88阿莫比|r 掉落記錄
+## Notes: Records boss kills and what their corpses, chests and group loot rolls drop, for wowamobi.com. Passive only: never loots, rolls or clicks for you, and stores no player names. /amobiloot
+## Notes-zhTW: 記下首領擊殺和屍體、寶箱、隊伍擲骰的掉落，給阿莫比網站（wowamobi.com）算掉落率。只被動記錄：不會替你撿東西、擲骰或點任何東西，也不存玩家的名字。/amobiloot 看記了多少
+## Author: 阿莫比
+## Version: 1.1.0
+## SavedVariables: AmobiLootDB
+## IconTexture: Interface\Icons\INV_Misc_Bag_10
+
+AmobiLoot.lua

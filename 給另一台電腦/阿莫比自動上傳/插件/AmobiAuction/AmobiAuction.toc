@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Amobi Auction |cffe9cb88阿莫比拍賣場|r
+## Title-zhTW: |cffe9cb88阿莫比|r 拍賣場物價
+## Notes: Records auction house prices for wowamobi.com: a full scan when you open the auction house (at most once per 15 minutes, the server's limit; or click the button), and the prices the auction house shows you while you browse - lowest buyout, median and the price spread. Never buys, bids, posts or searches for you, and stores no seller names. /amobiah
+## Notes-zhTW: 記下拍賣場的物價給阿莫比網站（wowamobi.com）：打開拍賣場就自動掃描全部（伺服器限制 15 分鐘一次；也可以按「掃描全部」），平常點分類、點物品時也順便記下畫面上的價格：最低一口價、中位數、價格分布。不會替你買、出價、上架或搜尋，也不存賣家的名字。/amobiah 看記了多少
+## Author: 阿莫比
+## Version: 1.1.0
+## SavedVariables: AmobiAuctionDB
+## IconTexture: Interface\Icons\INV_Misc_Coin_01
+
+AmobiAuction.lua

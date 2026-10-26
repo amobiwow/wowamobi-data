@@ -1,0 +1,46 @@
+{
+ "day": "2026-10-27",
+ "auction": {
+  "pending": "d737e1994d8d82309eb74ae51470f89975e113819593a5941b6306a9f05e6605",
+  "hash": "d737e1994d8d82309eb74ae51470f89975e113819593a5941b6306a9f05e6605",
+  "doneAt": "2026-10-24T12:42:14+08:00",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiAuction.lua",
+    341,
+    1792631025831461900
+   ]
+  ]
+ },
+ "census": {
+  "pending": "a5e5039a4bec3f2bc234f49102b14e4128d5adc6bc4fa7ef371aa8f1097ad3a1",
+  "notes": {
+   "beta": "普查（封測）：存檔有新的普查，但傳上去之後首頁會是聯盟 18 輪、部落 9 輪（網站上現在 9／9），兩個陣營輪數不一樣，先不傳。\n  存檔裡：CAMWOW TW4 Realm 2 PvP 聯盟 9 輪（網站上還沒有）\n  部落再做 9 輪完整普查、登出或 /reload 後，就會自動上傳（聯盟多做的不會先傳上去）。"
+  },
+  "hash": "a5e5039a4bec3f2bc234f49102b14e4128d5adc6bc4fa7ef371aa8f1097ad3a1",
+  "doneAt": "2026-10-24T12:42:14+08:00",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\DenizensTW.lua",
+    395774,
+    1792631025906006200
+   ]
+  ]
+ },
+ "loot": {
+  "pending": "cae22a6e6e24a635b9dcd7d621e6992f388bd8a74a081bb451de807594185929",
+  "note": "掉落：存檔有更新，但沒有 11/5 開服後的首領擊殺可以上傳（開服前的封測、壓測不傳）。",
+  "hash": "cae22a6e6e24a635b9dcd7d621e6992f388bd8a74a081bb451de807594185929",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiLoot.lua",
+    401,
+    1792631025875489200
+   ]
+  ],
+  "doneAt": "2026-10-24T13:20:01+08:00"
+ },
+ "guild": {
+  "envNote": "公會名單：D:\\魔獸網站\\.env 裡沒有 ROSTER_KEY，先不上傳。請從原本那台電腦的安裝包重新安裝（不要自己產生新的）。"
+ }
+}

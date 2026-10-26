@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: Denizens |cff66ccffTW|r
+## Title-zhTW: Denizens |cff66ccffTW|r 台版普查
+## Notes: Taiwan fork of Denizens: a complete /who census past the 50-result cap (level, class and race splitting), click mode, auto passes.
+## Notes-zhTW: Denizens 台版：完整 /who 普查 (等級、職業、種族三層切分突破 50 人上限)、點擊模式、自動普查。
+## Author: Konig (original Denizens), Taiwan fork
+## Version: 1.0.0-tw.2
+## SavedVariables: DenizensTWDB
+## X-Category: Social
+## X-License: MIT
+## IconTexture: Interface\Icons\INV_Misc_GroupLooking
+
+Locale.lua
+Core.lua
+Census.lua
+UI.lua
+Takeover.lua
+Probe.lua
