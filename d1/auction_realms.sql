@@ -7,3 +7,6 @@ CREATE TABLE auction_realms (
   last_any  INTEGER NOT NULL,   -- 最近一次任何記錄（完成時間）
   PRIMARY KEY (phase, realm, faction)
 ) WITHOUT ROWID;
+INSERT INTO "auction_realms" ("phase","realm","faction","last_full","last_any") VALUES('live','CAMWOW TW4 Realm 2 PvP','Alliance',1794558350,1794558350);
+INSERT INTO "auction_realms" ("phase","realm","faction","last_full","last_any") VALUES('live','CAMWOW TW4 Realm 2 PvP','Horde',1794558095,1794558095);
+INSERT INTO "auction_realms" ("phase","realm","faction","last_full","last_any") VALUES('live','CAMWOW TW4 Realm 2 PvP','Neutral',1794550569,1794550569);

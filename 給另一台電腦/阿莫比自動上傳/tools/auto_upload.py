@@ -25,7 +25,10 @@ Windows 排程「阿莫比自動上傳」每 10 分鐘（和登入 Windows 時�
   7. 榮譽擊殺（老闆 10/26，只針對阿莫比所在的亞服 PvP 規則聯盟）：小幫手 1.7.0 的聯盟角色用密語插件訊息傳給站長角色、
      AmobiGuild 收進存檔的（inbox 裡 H1 開頭的），site/scripts/upload-pvp.mjs 每個回報的人分開上傳到 /api/pvp；
      網站合併同一個擊殺的多人回報。開服前的不傳。
-  8. 做了什麼都寫進 資料\\自動上傳\\紀錄.txt；上傳失敗（沒網路……）下一輪再試，同樣的錯誤一小時只記一次。
+  8. 物品來源（老闆 10/27「一起做」）：小幫手 1.11.0 記下的商人、任務獎勵、怪物和寶箱掉落、位置（AmobiGuild 收進存檔的
+     S1 開頭的那幾筆，站長自己這台記的也在裡面），site/scripts/upload-sources.mjs 每個回報的人分開上傳到 /api/sources；
+     名字只送加密後的代號（ROSTER_KEY）。開服前的不傳。
+  9. 做了什麼都寫進 資料\\自動上傳\\紀錄.txt；上傳失敗（沒網路……）下一輪再試，同樣的錯誤一小時只記一次。
 普查本身（按鍵查詢）不會自動：不掛機。上傳金鑰由 site\\scripts 的上傳程式讀 .env，這支只看有沒有、不讀值、不印。
 
 另一台電腦：python tools/build_auto_upload_kit.py 做安裝包，那台雙擊 安裝自動上傳.bat（會跑 --setup）。
@@ -444,6 +447,36 @@ def do_pvp(files: list[pathlib.Path], st: dict, log: Log, dry: bool) -> None:
 
 
 # ---------------------------------------------------------------------------
+# 物品來源（AmobiGuild 收的小幫手 S1 資料：商人、任務獎勵、怪物和寶箱掉落、位置）
+# ---------------------------------------------------------------------------
+
+def do_sources(files: list[pathlib.Path], st: dict, log: Log, dry: bool) -> None:
+    code, out = run_node("upload-sources.mjs", *map(str, files), "--dry-run")
+    if code != 0:
+        raise Retry(f"物品來源：讀存檔失敗，下一輪再試。\n{indent(out)}")
+    lines = out.split("\n")
+    try:
+        info = json.loads(lines[-1])
+    except ValueError:
+        raise Retry(f"物品來源：檢查程式的結果看不懂，下一輪再試。\n{indent(out)}")
+    summary = "\n".join(lines[:-1])
+    if not info.get("entries"):
+        return                                            # 沒有開服後的物品來源（大部分時候）：不記
+    if info.get("sig") == st.get("uploaded"):
+        return
+    head = f"物品來源：小幫手傳來新的記錄（{info.get('people', 0)} 個人、{info.get('batches', 0)} 筆）"
+    if dry:
+        log(f"{head}\n  （試跑）會上傳：\n{indent(summary)}")
+        return
+    code, out = run_node("upload-sources.mjs", *map(str, files))
+    if code != 0:
+        raise Retry(f"物品來源：上傳沒有成功，下一輪再試。\n{indent(out)}")
+    st["uploaded"] = info.get("sig")
+    st.pop("note", None)
+    log(f"{head}\n{indent(out)}")
+
+
+# ---------------------------------------------------------------------------
 # 公會名單（AmobiGuild，給競拍場開單）
 # ---------------------------------------------------------------------------
 
@@ -486,7 +519,8 @@ JOBS = [("auction", "拍賣場", ("AmobiAuction.lua", "AmobiGuild.lua"), do_auct
         ("census", "普查", ("DenizensTW.lua",), do_census, ("UPLOAD_TOKEN", "INSIGHTS_SALT")),
         ("loot", "掉落", ("AmobiLoot.lua", "AmobiGuild.lua"), do_loot, ("UPLOAD_TOKEN",)),
         ("guild", "公會名單", ("AmobiGuild.lua",), do_guild, ("UPLOAD_TOKEN", "ROSTER_KEY")),
-        ("pvp", "榮譽擊殺", ("AmobiGuild.lua",), do_pvp, ("UPLOAD_TOKEN",))]
+        ("pvp", "榮譽擊殺", ("AmobiGuild.lua",), do_pvp, ("UPLOAD_TOKEN",)),
+        ("sources", "物品來源", ("AmobiGuild.lua",), do_sources, ("UPLOAD_TOKEN", "ROSTER_KEY"))]
 
 
 def saves(names: tuple) -> list[pathlib.Path]:

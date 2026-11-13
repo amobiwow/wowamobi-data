@@ -17,3 +17,9 @@ INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(10,'0010_bid_ugly.
 INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(11,'0011_pvp.sql','2026-10-26 12:01:22');
 INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(12,'0012_pvp_reports.sql','2026-10-26 12:12:06');
 INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(13,'0013_pvp_faction.sql','2026-10-26 12:43:55');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(14,'0014_sources.sql','2026-10-27 09:05:12');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(15,'0015_roster_class.sql','2026-10-31 08:25:59');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(16,'0016_src_trainers.sql','2026-11-06 21:02:55');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(17,'0017_src_quests.sql','2026-11-06 21:40:21');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(18,'0018_pvp_honor.sql','2026-11-08 08:15:43');
+INSERT INTO "d1_migrations" ("id","name","applied_at") VALUES(19,'0019_roster_guild.sql','2026-11-09 17:55:08');

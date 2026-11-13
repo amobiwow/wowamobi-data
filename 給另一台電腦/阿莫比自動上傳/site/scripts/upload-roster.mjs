@@ -5,6 +5,7 @@
 // 只傳 11/5 07:00 開服後讀到的名單（封測、壓測的角色不算）；只用聯盟的（老闆：「我的公會只有聯盟」），好幾份時用最新的。
 // 部落帳號也裝 AmobiGuild 收部落的榮譽擊殺（10/26），那邊的部落公會名單不傳，不然會蓋掉競拍場的聯盟名單。
 // 網站每次整份換掉：退出公會的人下次上傳後就不能開單。
+// 職業（AmobiGuild 1.4.0 起有）跟著加密後的名字一起傳：Discord「正式公會成員」要比對「名字丨職業」（src/discord-roles.js）。
 //
 //   node scripts/upload-roster.mjs <AmobiGuild.lua...>             上傳到 https://wowamobi.com
 //   node scripts/upload-roster.mjs <AmobiGuild.lua...> --dry-run   只檢查；最後一行印 JSON {guild, members, at, beta, sig}
@@ -44,11 +45,16 @@ for (const f of files) {
   if (at < LAUNCH_TS && !all) { beta++; continue; }
   const realm = String(g.get("realm") || "");
   const suffixes = realm ? [`-${realm}`, `-${realm.replace(/\s+/g, "")}`] : [];
-  const names = list(g.get("members")).filter(n => typeof n === "string").map(n => {
+  const bare = n => {
     for (const s of suffixes) if (n.endsWith(s)) return n.slice(0, -s.length);   // 「名字-伺服器」只留名字
     return n;
-  }).map(n => n.trim()).filter(Boolean);
-  if (names.length) found.push({ file: f, guild: String(g.get("name") || "").trim(), faction: String(g.get("faction") || ""), at, names });
+  };
+  const names = list(g.get("members")).filter(n => typeof n === "string").map(n => bare(n).trim()).filter(Boolean);
+  // 職業（AmobiGuild 1.4.0 起；Discord 身分組要比對「名字丨職業」）：rosterKey → 遊戲的職業編號
+  const classes = new Map();
+  const cg = g.get("classes");
+  if (isMap(cg)) for (const [n, c] of cg) if (typeof n === "string" && Number.isInteger(c)) classes.set(rosterKey(bare(n).trim()), c);
+  if (names.length) found.push({ file: f, guild: String(g.get("name") || "").trim(), faction: String(g.get("faction") || ""), at, names, classes });
 }
 found.sort((a, b) => (b.faction === "Alliance") - (a.faction === "Alliance") || b.at - a.at);
 const pick = found.find(x => x.guild && x.faction === "Alliance");
@@ -63,11 +69,14 @@ if (pick.names.length > 1000) {
   process.exit(1);
 }
 const keys = [...new Set(pick.names.map(rosterKey))].sort();
-const sig = createHash("sha256").update(JSON.stringify([pick.guild, keys])).digest("hex");
+const cls = keys.map(k => pick.classes.get(k) ?? null);
+const withClass = cls.filter(c => c != null).length;
+const sig = createHash("sha256").update(JSON.stringify([pick.guild, keys, cls])).digest("hex");
 const when = new Date((pick.at + 8 * 3600) * 1000).toISOString().slice(5, 16).replace("-", "/").replace("T", " ");
-console.log(`公會「${pick.guild}」${keys.length} 人（${when} 在遊戲裡讀到）` + (found.length > 1 ? `；另外 ${found.length - 1} 份比較舊或是部落的不用` : ""));
+console.log(`公會「${pick.guild}」${keys.length} 人、${withClass} 人有職業（${when} 在遊戲裡讀到）` + (found.length > 1 ? `；另外 ${found.length - 1} 份比較舊或是部落的不用` : "")
+  + (withClass ? "" : "\n  沒有職業：Discord 身分組比對不到，AmobiGuild 要更新到 1.4.0，在遊戲裡再讀一次名單"));
 if (dry) {
-  console.log(JSON.stringify({ guild: pick.guild, members: keys.length, at: pick.at, beta, sig }));
+  console.log(JSON.stringify({ guild: pick.guild, members: keys.length, classes: withClass, at: pick.at, beta, sig }));
   process.exit(0);
 }
 
@@ -79,10 +88,11 @@ if (!token || !rk) {
   process.exit(1);
 }
 const hashes = keys.map(k => createHmac("sha256", rk).update(k).digest("hex"));
+const classes = Object.fromEntries(hashes.map((h, i) => [h, cls[i]]).filter(([, c]) => c != null));
 const r = await fetch(`${base}/api/bid/roster`, {
   method: "POST",
   headers: { "content-type": "application/json", authorization: `Bearer ${token}` },
-  body: JSON.stringify({ guild: pick.guild, at: pick.at, hashes }),
+  body: JSON.stringify({ guild: pick.guild, at: pick.at, hashes, classes }),
 });
 const res = await r.json().catch(() => ({}));
 if (!r.ok) {

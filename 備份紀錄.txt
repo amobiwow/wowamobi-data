@@ -1,1 +1,13 @@
 2026-10-27 00:05:01 資料庫匯出 24 張表，共 26.6 MB
+2026-10-27 00:05:03 commit：備份 2026-10-27 00:05
+2026-11-13 20:28:38 資料庫匯出 35 張表，共 387.2 MB
+2026-11-13 20:28:58 commit：備份 2026-11-13 20:28
+2026-11-13 20:30:33 失敗：git push -q origin… 失敗：remote: error: Trace: 14a685d424cc791faad27682c1f39c4b0d1c7dccaa8aa3e1d83497d4a2370624        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File d1/src_items.sql is 232.35 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:amobiwow/wowamobi-data.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:amobiwow/wowamobi-data.git'
+
+2026-11-13 20:31:26 資料庫匯出 35 張表，共 387.2 MB（src_items 太大，切成好幾份）

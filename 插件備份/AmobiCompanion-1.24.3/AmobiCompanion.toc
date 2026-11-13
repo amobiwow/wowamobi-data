@@ -1,0 +1,51 @@
+## Interface: 16001
+## Title: Amobi Companion |cffe9cb88阿莫比小幫手|r
+## Title-zhTW: |cffe9cb88阿莫比|r 小幫手
+## Notes: The wowamobi.com companion for WoW Forever: apply talent builds from the website; boss timeline and warnings set up, pull countdown, your threat; map coordinates and waypoints to the nearest flight master, inn or dungeon; an AtlasLoot-style loot browser; dungeon quests (classic reference: level, quest giver, waypoint); quest helper (nearest quest, quest-mob marks, optional auto accept / turn in); PvP alerts (enemy crowd-control casts and cooldowns read aloud in Chinese, nearby enemy players, a kill list); dungeon cards, cooldown viewer and damage meter layout, a leveling estimate bar (XP per hour, time to level), a flight timer, cursor sparkles, a world map that shows unexplored areas, innkeepers and trainers, zone levels and territory, a combat timer, a group toolbar (countdown, target markers, ready check), your and your target's portraits moved to the middle, post-fight review, target range, cooldown numbers, target health, an optional nameplate restyle, profession uses on tooltips, a bolder damage font and food / sleeping bag / elixir expiry reminders; guild recruiting (someone whispers 公會++, a small window lists them with a copy-name button so you can invite them yourself); level-up announcements in guild chat (your rank in the guild and in your class, and your played time); in the Amobi guild it records auction prices and boss drops for the website (no player names); it records where items come from (vendors, quest rewards, mob and chest drops, with map positions; NPC names only) and sends them to Amobi for the website's item pages; it records the players of your own faction you see around you and your guild's online members (name, level, class, race, guild, zone) and sends them to Amobi for the website's population census, and looks up the honor kills and PvP rank of the players around you (both factions, with the game's Inspect) for the kill ranking; on Amobi's Asia PvP-rules realm (Alliance and Horde) it records whom you got honor kills on and sends them to Amobi for a kill ranking (both can be turned off). Never casts, targets or moves for you; the level-up line in guild chat is the only thing it says (can be turned off). /amobi
+## Notes-zhTW: 阿莫比網站（wowamobi.com）的《魔獸世界：永恆》遊戲插件：網站天賦一鍵套用；首領時間軸和警告一鍵設定、開怪倒數、我的仇恨；座標、導航到最近的飛行點、旅店、副本入口；像 AtlasLoot 的戰利品查詢；副本任務（經典版參考：幾級可接、誰接、帶路）；任務帶路、名條標任務怪、自動接交任務（打勾才開）；PvP 警報（敵方控場技能中文語音播報、冷卻倒數、附近敵人、必殺名單）；副本小卡、冷卻監控和傷害統計擺好、升級預估（每小時經驗、預計多久升級）、鳥點計時器、滑鼠跟隨閃亮亮、M 地圖增強（去迷霧、標旅店和訓練師、建議等級、領地）、戰鬥計時、團隊工具列（倒數、標記、就位確認）、頭像搬到中間、打完檢討、目標距離、冷卻數字、目標血量、血條美化（打勾才開）、物品專業用途、打怪傷害字型、食物睡袋藥劑快到期提醒；公會招募（有人密你「公會++」跳出小視窗記下名字，可以複製名字自己邀請）；升級公告（升到 10、20、30 級時在公會頻道說公會裡、職業裡第幾名和遊戲時間）；在阿莫比的公會裡記拍賣場物價和首領掉落給網站（沒有玩家名字）；記下物品從哪裡拿到（商人、任務獎勵、怪物和寶箱掉落、地圖座標，只有 NPC 的名字）傳給阿莫比網站的物品頁；記下身邊看到的同陣營玩家和公會在線成員（名字、等級、職業、種族、公會、區域）傳給阿莫比網站的人口普查，也用「觀察」查身邊玩家（兩個陣營）的榮譽擊殺和軍銜給擊殺排行榜；亞服 PvP 規則限定（聯盟、部落都收），記下你榮譽擊殺了誰傳給阿莫比做擊殺排行榜（都可以關）。不會替你施法、選目標或移動；只有升級公告會在公會頻道說話（可以關）。/amobi
+## Author: 阿莫比
+## Version: 1.24.3
+## SavedVariables: AmobiCompanionDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## AddonCompartmentFunc: AmobiCompanion_OnAddonCompartmentClick
+
+Data\Talents.lua
+Data\Dungeons.lua
+Data\Combat.lua
+Data\ItemUse.lua
+Data\Map.lua
+Data\MapOverlays.lua
+Data\Loot.lua
+Data\Buffs.lua
+Data\PvPSpells.lua
+Data\DungeonQuests.lua
+Core.lua
+UI.lua
+Overview.lua
+Talents.lua
+Dungeon.lua
+Assist.lua
+Plates.lua
+Combat.lua
+Hud.lua
+Sparkle.lua
+Flight.lua
+MapPlus.lua
+Boss.lua
+Navigate.lua
+LootBrowser.lua
+DungeonQuests.lua
+Quest.lua
+Review.lua
+Utility.lua
+Recruit.lua
+LevelUp.lua
+Reminder.lua
+Market.lua
+Drops.lua
+PvP.lua
+Sources.lua
+Seen.lua
+Honor.lua
+PvPAlert.lua
+Share.lua

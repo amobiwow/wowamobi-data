@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Amobi Guild |cffe9cb88阿莫比公會名單|r
+## Title-zhTW: |cffe9cb88阿莫比|r 公會名單
+## Notes: Saves your guild roster for the wowamobi.com auction room (only guild members can open a run), and receives the auction prices and boss drops your guild members' Amobi Companion records, and the honor kills, item sources (vendors, quest rewards, mob and chest drops) the same-faction players seen around them (for the population census) and the honor kills and PvP ranks they looked up of any same-faction player's Companion (addon messages; install on the Alliance and the Horde account). Owner's computers only. /amobiguild
+## Notes-zhTW: 記下公會名單給阿莫比網站競拍場用（開單限公會成員），並收公會成員的小幫手傳來的拍賣場物價、首領掉落，和同陣營玩家的小幫手傳來的榮譽擊殺、物品來源（商人、任務獎勵、怪物和寶箱掉落）、身邊看到的玩家（併進人口普查）、查到的 PvP 戰績（聯盟、部落帳號各裝一個）。只裝在站長自己的電腦、不公開下載。/amobiguild 看讀到幾人、收到多少
+## Author: 阿莫比
+## Version: 1.7.4
+## SavedVariables: AmobiGuildDB
+## IconTexture: Interface\Icons\INV_Shirt_GuildTabard_01
+
+AmobiGuild.lua

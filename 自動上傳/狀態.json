@@ -1,46 +1,116 @@
 {
- "day": "2026-10-27",
+ "day": "2026-11-13",
  "auction": {
-  "pending": "d737e1994d8d82309eb74ae51470f89975e113819593a5941b6306a9f05e6605",
-  "hash": "d737e1994d8d82309eb74ae51470f89975e113819593a5941b6306a9f05e6605",
-  "doneAt": "2026-10-24T12:42:14+08:00",
+  "pending": "85b3a7f36436bbc14cfcab9dac33833e81efcdcd667608378a7ba9a8857bfb9e",
+  "hash": "85b3a7f36436bbc14cfcab9dac33833e81efcdcd667608378a7ba9a8857bfb9e",
+  "doneAt": "2026-11-13T07:10:17+08:00",
   "stat": [
    [
     "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiAuction.lua",
-    341,
-    1792631025831461900
-   ]
-  ]
- },
- "census": {
-  "pending": "a5e5039a4bec3f2bc234f49102b14e4128d5adc6bc4fa7ef371aa8f1097ad3a1",
-  "notes": {
-   "beta": "普查（封測）：存檔有新的普查，但傳上去之後首頁會是聯盟 18 輪、部落 9 輪（網站上現在 9／9），兩個陣營輪數不一樣，先不傳。\n  存檔裡：CAMWOW TW4 Realm 2 PvP 聯盟 9 輪（網站上還沒有）\n  部落再做 9 輪完整普查、登出或 /reload 後，就會自動上傳（聯盟多做的不會先傳上去）。"
-  },
-  "hash": "a5e5039a4bec3f2bc234f49102b14e4128d5adc6bc4fa7ef371aa8f1097ad3a1",
-  "doneAt": "2026-10-24T12:42:14+08:00",
-  "stat": [
+    918232,
+    1794524696172825100
+   ],
    [
-    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\DenizensTW.lua",
-    395774,
-    1792631025906006200
-   ]
-  ]
- },
- "loot": {
-  "pending": "cae22a6e6e24a635b9dcd7d621e6992f388bd8a74a081bb451de807594185929",
-  "note": "掉落：存檔有更新，但沒有 11/5 開服後的首領擊殺可以上傳（開服前的封測、壓測不傳）。",
-  "hash": "cae22a6e6e24a635b9dcd7d621e6992f388bd8a74a081bb451de807594185929",
-  "stat": [
-   [
-    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiLoot.lua",
-    401,
-    1792631025875489200
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
    ]
   ],
-  "doneAt": "2026-10-24T13:20:01+08:00"
+  "note": "拍賣場：存檔有更新，但裡面還沒有可以上傳的價格（打開拍賣場掃描完、/reload 或登出後才會有）。",
+  "backup": "85b3a7f36436bbc14cfcab9dac33833e81efcdcd667608378a7ba9a8857bfb9e",
+  "uploaded": "31f7d0acaabc16dd9cce364ed129a3fcac355a36b614eed42e3a79a36bd65e7e"
+ },
+ "census": {
+  "pending": "133a62e19cb0074fb9463c7d2de5663fdc8af3273a63845e3d9797eb93623ee6",
+  "notes": {
+   "beta": "普查：存檔裡 11/5 開服前的資料（封測、壓測）已經結束，不上傳；只傳 11/5 07:00 開服後的普查。"
+  },
+  "hash": "133a62e19cb0074fb9463c7d2de5663fdc8af3273a63845e3d9797eb93623ee6",
+  "doneAt": "2026-11-09T01:37:31+08:00",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    15417486,
+    1794159217867753100
+   ],
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\DenizensTW.lua",
+    4195264,
+    1794159218047904500
+   ]
+  ],
+  "backupPath": "資料\\自動上傳\\存檔備份\\20261109-013714-普查.zip",
+  "backup": "133a62e19cb0074fb9463c7d2de5663fdc8af3273a63845e3d9797eb93623ee6"
+ },
+ "loot": {
+  "pending": "0627f702abd548be59730ecd1eb8598a7bb1c5995d3b19219e5aafad72c9676d",
+  "hash": "0627f702abd548be59730ecd1eb8598a7bb1c5995d3b19219e5aafad72c9676d",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
+   ],
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiLoot.lua",
+    8697,
+    1794524696567480000
+   ]
+  ],
+  "doneAt": "2026-11-13T07:10:56+08:00",
+  "backup": "0627f702abd548be59730ecd1eb8598a7bb1c5995d3b19219e5aafad72c9676d",
+  "uploaded": "76fdcf8ec8a6e71dab22e78accc6bb3c56c20dbdfa4cd2788c5003471ac530fc"
  },
  "guild": {
-  "envNote": "公會名單：D:\\魔獸網站\\.env 裡沒有 ROSTER_KEY，先不上傳。請從原本那台電腦的安裝包重新安裝（不要自己產生新的）。"
+  "pending": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "hash": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
+   ]
+  ],
+  "doneAt": "2026-11-13T07:10:57+08:00",
+  "uploaded": "88917bd0d33ec790bcf9e96dfb53f2d3685cdf01127e0db6d8b23cf23c93bbe9"
+ },
+ "pvp": {
+  "pending": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "hash": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
+   ]
+  ],
+  "doneAt": "2026-11-13T07:11:07+08:00",
+  "uploaded": "e9a8b54d9984bdb4b2414b49341687e5c0fde0223725e9b590edc60899b0d7b2"
+ },
+ "sources": {
+  "pending": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "uploaded": "541328800f9b6137fc32bc5c82c7854adbb663648a4f4e701e2fccb0b377e8dd",
+  "hash": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
+   ]
+  ],
+  "doneAt": "2026-11-13T07:13:26+08:00"
+ },
+ "honor": {
+  "pending": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "hash": "1f717d3ab00cfe99c29bacf4cca7bf505bba2d579c42ba1afc712e766d9711c0",
+  "stat": [
+   [
+    "D:\\World of Warcraft\\_forever_\\WTF\\Account\\1524052474#1\\SavedVariables\\AmobiGuild.lua",
+    27341120,
+    1794524696342938800
+   ]
+  ],
+  "doneAt": "2026-11-13T07:11:13+08:00",
+  "uploaded": "90c8760d1b2b95865440ccd78a32997d316deec6c10a7930f7bd7d72a6e520f9"
  }
 }

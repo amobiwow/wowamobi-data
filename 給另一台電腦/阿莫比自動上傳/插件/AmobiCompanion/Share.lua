@@ -15,13 +15,16 @@
 --     （只認剛問過、同伺服器的那幾個名字；這樣問到的只傳榮譽擊殺，拍賣場、首領掉落還是只在公會裡傳）；
 --     站長不在線時遊戲會說「未找到名為…的線上玩家」，這幾秒內的這種系統訊息用聊天框的過濾器擋掉（遊戲用 securecallfunction
 --     呼叫過濾器，不會污染聊天框），最多 10 分鐘問一次。這一筆有對方（敵對陣營玩家）的名字；回報的人是密語的寄件人。
+--   * 1.11.0 物品來源（Sources.lua，老闆 10/27「一起做」）：商人賣什麼、任務給什麼、怪物和寶箱掉什麼、在哪裡，和榮譽擊殺一樣
+--     不用在公會裡，直接密語問站長（站長回 "C" 或 "CW" 都傳）。只有 NPC 的名字，沒有玩家的名字。
 -- 插件訊息格式（前綴 AMOBI）：P＝問站長在不在（公會，或直接密語）；C＝站長在（公會或密語）；CW＝站長在、你不在站長的公會
--- （直接密語問的回答，只傳榮譽擊殺）；D<編號>,<第幾則>,<共幾則>;<內容>＝資料（密語給站長）；
+-- （直接密語問的回答，只傳榮譽擊殺和物品來源）；D<編號>,<第幾則>,<共幾則>;<內容>＝資料（密語給站長）；
 -- A<編號>＝站長收齊了（密語）。一筆資料的內容：
 --   拍賣場 M1^伺服器^陣營^faction/neutral^full^開始時間^讀完時間^拍賣筆數^物品數^物品資料（Market.lua 的 36 進位格式）
 --   首領   K1^伺服器^首領^地圖^難度^人數^時間^副本分身^有沒有打開屍體(1/0)^物品:數量,物品:數量（36 進位）
 --   擊殺   H2^伺服器^職業^公會^時間:地圖:副本地圖:區域:對方名字:軍銜:榮譽:隊伍人數:等級,…（數字 36 進位；一筆最多 PVP_BATCH 次；
 --          1.7.1 起，1.7.0 是 H1^伺服器^時間:地圖:副本地圖:對方名字:軍銜:榮譽:隊伍人數）
+--   來源   S1^伺服器^陣營^一項~一項~…（商人、任務、怪物、寶箱；格式寫在 Sources.lua 最上面）
 
 local _, ns = ...
 local S = {}
@@ -53,7 +56,9 @@ local known = {}             -- [編號] = 這次登入排過的資料（站長�
 local function now() return GetServerTime and GetServerTime() or time() end
 local function on() return ns.db.settings.share ~= false end           -- 拍賣場、首領掉落
 local function pvpOn() return ns.PvP ~= nil and ns.PvP.On() end           -- 榮譽擊殺
-local function anyOn() return on() or pvpOn() end
+local function srcOn() return ns.Sources ~= nil and ns.Sources.Active() end -- 物品來源
+local function directOn() return pvpOn() or srcOn() end                   -- 不用在公會裡、直接密語問站長的
+local function anyOn() return on() or directOn() end
 local function chatOK() return type(C_ChatInfo) == "table" and type(C_ChatInfo.SendAddonMessage) == "function" end
 
 -- 站長自己的電腦（裝了 AmobiGuild）：它就是收的那一端，這邊不用傳
@@ -96,9 +101,9 @@ end
 
 local function twDay(t) return math.floor((t + 8 * 3600) / 86400) end
 
--- 要傳的：榮譽擊殺、拍賣場（每天每個拍賣場最新的一次完整全掃描）、首領擊殺（10 分鐘前的；內容變了會再傳）
--- pvpOnly：站長是直接密語問到的（不是在公會裡），只傳榮譽擊殺
-local function build(busy, pvpOnly)
+-- 要傳的：榮譽擊殺、物品來源、拍賣場（每天每個拍賣場最新的一次完整全掃描）、首領擊殺（10 分鐘前的；內容變了會再傳）
+-- directOnly：站長是直接密語問到的（不是在公會裡），只傳榮譽擊殺和物品來源
+local function build(busy, directOnly)
   local list, done = {}, {}
   if pvpOn() then
     local byGroup, groups = {}, {}                     -- 同伺服器、同職業、同公會的一起傳
@@ -119,7 +124,12 @@ local function build(busy, pvpOnly)
       end
     end
   end
-  if not on() or pvpOnly then return list end
+  if srcOn() then
+    for _, o in ipairs(ns.Sources.Outbox()) do
+      if db.sent[o.id] then ns.Sources.MarkSent(o) else list[#list + 1] = { id = o.id, body = o.body, src = o } end
+    end
+  end
+  if not on() or directOnly then return list end
   for _, s in ipairs(ns.Market and ns.Market.Scans() or {}) do
     if s.kind == "full" and s.sent then done[s.realm .. "|" .. s.ah .. "|" .. twDay(s.t)] = true end
   end
@@ -229,11 +239,14 @@ local function ping(force)
   send("P", "GUILD")
 end
 
-local function hasKills() return pvpOn() and #ns.PvP.Unsent() > 0 end
+-- 有不用在公會裡就能傳的東西：榮譽擊殺、包好的物品來源
+local function hasKills()
+  return (pvpOn() and #ns.PvP.Unsent() > 0) or (srcOn() and #ns.Sources.Outbox() > 0)
+end
 
--- 榮譽擊殺：不管有沒有公會，直接密語問寫好的站長角色名在不在（最多 10 分鐘一次）
+-- 榮譽擊殺、物品來源：不管有沒有公會，直接密語問寫好的站長角色名在不在（最多 10 分鐘一次）
 local function pingDirect(force)
-  if not pvpOn() or isCollector() or not chatOK() or ns.Restricted() or collector then return end
+  if not directOn() or isCollector() or not chatOK() or ns.Restricted() or collector then return end
   if not force and GetTime() - lastDirect < DIRECT_EVERY then return end
   lastDirect = GetTime()
   for _, name in ipairs(ns.PvP.Collectors()) do
@@ -348,8 +361,16 @@ local function onMessage(prefix, text, channel, sender)
     db.stats.last = now()
     if item.scan then ns.Market.MarkSent(item.scan) end
     if item.kills then ns.PvP.MarkSent(item.kills) end
+    if item.src then ns.Sources.MarkSent(item.src) end
     ns.UI.Refresh("share")
   end
+end
+
+-- 分享資料的三個開關（分頁的勾、功能總覽都叫這個）：share 拍賣場和首領掉落、pvpShare 榮譽擊殺、srcShare 物品來源
+function S.SetShare(key, v)
+  ns.db.settings[key] = v and true or false
+  if not anyOn() then queue, current, inflight = {}, nil, {}; stop() else S.Kick2() end
+  ns.UI.Refresh("share")
 end
 
 -- ------------------------------------------------------------------ 「分享資料」分頁
@@ -366,9 +387,7 @@ local function buildTab(page)
   page.check = ns.UI.Check(page, "把拍賣場物價、首領掉落傳給阿莫比網站（只在阿莫比的公會裡）",
     function() return on() end,
     function(v)
-      ns.db.settings.share = v
-      if not anyOn() then queue, current, inflight = {}, nil, {}; stop() else S.Kick2() end
-      ns.UI.Refresh("share")
+      S.SetShare("share", v)
     end)
   page.check:SetPoint("TOPLEFT", -4, y)
   y = y - 30
@@ -379,23 +398,31 @@ local function buildTab(page)
   page.pvpCheck = ns.UI.Check(page, "把我拿到的榮譽擊殺傳給阿莫比（亞服 PvP 規則限定）",
     function() return pvpOn() end,
     function(v)
-      ns.db.settings.pvpShare = v
-      if not anyOn() then queue, current, inflight = {}, nil, {}; stop() else S.Kick2() end
-      ns.UI.Refresh("share")
+      S.SetShare("pvpShare", v)
     end)
   page.pvpCheck:SetPoint("TOPLEFT", -4, y)
   y = y - 30
   line("這個功能只針對阿莫比所在的亞服 PvP 規則伺服器（聯盟、部落都收）：拿到榮譽擊殺時，記下對方（敵對陣營玩家）的名字、軍銜、榮譽、" ..
        "地圖和時間，連同你的角色名字、職業、等級、公會傳給阿莫比做排行（排行顯示真名）。不用在公會裡；站長不在線就先存著，之後再傳。")
+  page.srcCheck = ns.UI.Check(page, "把物品來源傳給阿莫比（商人、任務獎勵、怪物和寶箱的掉落）",
+    function() return ns.db.settings.srcShare ~= false end,
+    function(v)
+      S.SetShare("srcShare", v)
+    end)
+  page.srcCheck:SetPoint("TOPLEFT", -4, y)
+  y = y - 30
+  line("跟商人買東西、接任務和交任務、打開怪物屍體和寶箱時，記下賣什麼、給什麼、掉什麼，連同 NPC 的名字和地圖座標，" ..
+       "網站物品頁的「怎麼取得」就有永恆真正的來源。只記 NPC 的名字，不記玩家的名字；不用在公會裡，站長不在線就先存著。")
   page.status = line("", "GameFontHighlight", 120)
 end
 
 local function refreshTab(page)
   if page.check then page.check:Refresh() end
   if page.pvpCheck then page.pvpCheck:Refresh() end
+  if page.srcCheck then page.srcCheck:Refresh() end
   local rows = {}
   if isCollector() then
-    rows[#rows + 1] = "這台電腦裝了阿莫比公會名單插件：你就是收資料的站長，這裡不用傳（你自己的榮譽擊殺直接存進公會名單插件）。"
+    rows[#rows + 1] = "這台電腦裝了阿莫比公會名單插件：你就是收資料的站長，這裡不用傳（你自己的榮譽擊殺、物品來源直接存進公會名單插件）。"
   else
     rows[#rows + 1] = collector and "|cff60ff60阿莫比站長在線|r，有新的資料會馬上傳。"
       or db.seenAt and ("上次看到阿莫比站長在線：" .. date("%m/%d %H:%M", db.seenAt) .. "。站長下次在線時再傳。")
@@ -414,6 +441,13 @@ local function refreshTab(page)
       rows[#rows + 1] = "榮譽擊殺：這個陣營不記（只記聯盟、部落）。"
     else
       rows[#rows + 1] = "榮譽擊殺：" .. ns.PvP.Status()
+    end
+    if ns.db.settings.srcShare == false then
+      rows[#rows + 1] = "物品來源：已經關掉，不記也不傳。"
+    elseif not srcOn() then
+      rows[#rows + 1] = "物品來源：這個陣營不記（只記聯盟、部落）。"
+    else
+      rows[#rows + 1] = "物品來源：" .. ns.Sources.Status()
     end
     if current then
       rows[#rows + 1] = ("正在傳：第 %d／%d 則（一秒一則）"):format(current.i, #current.parts)

@@ -67,7 +67,7 @@ async function upload(file) {
     return;
   }
   if (!data.kills.length) {
-    show(`<b>${file.name}</b>：還沒有記到首領擊殺。打完首領、<code>/reload</code> 以後再上傳。`, "bad");
+    show(`<b>${file.name}</b>：還沒有記到首領擊殺。打完首領、登出以後再上傳。`, "bad");
     return;
   }
   const n = data.kills.length, items = data.kills.reduce((a, k) => a + k.items.length, 0);

@@ -28,6 +28,7 @@ for _, id in ipairs({ 8613, 8617, 8618, 10768, 1235230, 1235236, 1235244, 921, 5
                       2575, 2576, 2577, 2578, 2579, 3564, 10248, 1264639 }) do
   GATHER[id] = true
 end
+D.GATHER = GATHER   -- Sources.lua 也用（採集出來的不算怪物掉落）
 
 local db
 local gatheredAt, skipWindow = -100, false

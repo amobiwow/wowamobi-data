@@ -19,9 +19,17 @@
 --   所以這邊也回答密語的「P」（同一個人一分鐘一次；公會外的人回 "CW"，小幫手就只傳榮譽擊殺），也收公會外的人傳來的——
 --   但只收 H1／H2／H3，一個人同時最多 32 KB、一小時最多 30 筆。
 --   1.2.2（老闆 10/26 晚：部落的資料傳到 大名「阿莫比」小名「阿莫」）：部落帳號也裝這個插件，收部落玩家的榮譽擊殺
---   （插件訊息不能跨陣營，聯盟的傳給聯盟的「谷阿莫」、部落的傳給部落的「阿莫比」）。部落那邊的公會名單 upload-roster.mjs 不傳。
+--   （插件訊息不能跨陣營，聯盟的傳給聯盟的「谷阿莫」、部落的傳給部落的「阿莫比」；小幫手 1.13.1 起部落改傳公司那台的「阿莫谷 摩寧」）。部落那邊的公會名單 upload-roster.mjs 不傳。
 --   站長自己這台的小幫手記到的，直接呼叫 AmobiGuild_Store(內容) 存進來（寄件人是自己）。
 --   登出後 tools/auto_upload.py → site/scripts/upload-pvp.mjs 上傳（POST /api/pvp；網站合併同一個擊殺的多人回報）。
+--
+-- 1.3.0 物品來源（老闆 10/27：「物品的資料 能補他們來源的單位跟地圖座標嗎」→ 小幫手 1.11.0「一起做」）：
+--   小幫手記下商人賣什麼、任務給什麼、怪物和寶箱掉什麼、在哪裡（S1^…，格式見小幫手 Sources.lua），和榮譽擊殺一樣
+--   公會外的人也收（同一個上限：一個人同時最多 32 KB、一小時最多 30 筆）。站長自己這台的小幫手記到的也用 AmobiGuild_Store 存進來
+--   （標 own：網站算站長自己記的）。登出後 tools/auto_upload.py → site/scripts/upload-sources.mjs 上傳（POST /api/sources）。
+--
+-- 1.4.0 公會名單多記職業（老闆 10/31：Discord 名字改成「大名＋次名丨職業」，「後方的職業同等遊戲職業」才給「正式公會成員」）：
+--   AmobiGuildDB.guild.classes[名字] = 職業編號（classID：1 戰士、2 聖騎士…），upload-roster.mjs 跟著加密後的名字一起傳。
 
 local ADDON = ...
 local frame = CreateFrame("Frame")
@@ -84,11 +92,15 @@ function read()
   if clubId == nil or secret(clubId) then return end
   local ids = C_Club.GetClubMembers(clubId)
   if type(ids) ~= "table" or secret(ids) then return later() end
-  local names, skipped = {}, 0
+  local names, classes, skipped = {}, {}, 0
   for _, mid in ipairs(ids) do
     local info = C_Club.GetMemberInfo(clubId, mid)
     local name = type(info) == "table" and not secret(info) and info.name
-    if type(name) == "string" and not secret(name) and name ~= "" then names[#names + 1] = name else skipped = skipped + 1 end
+    if type(name) == "string" and not secret(name) and name ~= "" then
+      names[#names + 1] = name
+      local cls = info.classID
+      if type(cls) == "number" and not secret(cls) then classes[name] = cls end
+    else skipped = skipped + 1 end
   end
   if #names == 0 then return end
   if skipped * 2 > #ids then return later() end   -- 大半讀不到：等一下再讀，不要存一份殘缺的
@@ -96,7 +108,7 @@ function read()
   local guild = GetGuildInfo("player")
   if secret(guild) or type(guild) ~= "string" then guild = nil end
   AmobiGuildDB.guild = { name = guild, faction = UnitFactionGroup("player"), realm = GetRealmName(),
-                         at = time(), members = names }
+                         at = time(), members = names, classes = classes }
   pending = false
 end
 
@@ -166,6 +178,10 @@ end
 
 -- 榮譽擊殺（小幫手 1.7.0 是 H1，1.7.1 是 H2：多了職業、公會、區域、等級；1.7.2 起 H3：多了陣營）
 local function isPvp(body) return body:match("^H[123]%^") ~= nil end
+-- 物品來源（小幫手 1.11.0）
+local function isSrc(body) return body:match("^S1%^") ~= nil end
+-- 公會外的人傳來的只收這兩種
+local function guestOK(body) return isPvp(body) or isSrc(body) end
 
 local function guestFull(sender)
   local list, keep = guests[sender] or {}, {}
@@ -197,8 +213,8 @@ local function onData(sender, text, guest)
     AmobiGuildDB.stats.bad = (AmobiGuildDB.stats.bad or 0) + 1
     return
   end
-  if guest then                                    -- 公會外的人只收榮譽擊殺，而且有量的上限
-    if not isPvp(body) or guestFull(sender) then
+  if guest then                                    -- 公會外的人只收榮譽擊殺和物品來源，而且有量的上限
+    if not guestOK(body) or guestFull(sender) then
       AmobiGuildDB.stats.refused = (AmobiGuildDB.stats.refused or 0) + 1
       return
     end
@@ -224,7 +240,7 @@ local function onMessage(prefix, text, channel, sender)
   if (channel == "GUILD" or channel == "WHISPER") and text == "P" then   -- 公會頻道問的、直接密語問的（榮譽擊殺）
     if replied[sender] and GetTime() - replied[sender] < 60 then return end   -- 同一個人一分鐘回一次就好
     replied[sender] = GetTime()
-    -- 公會成員（或在公會頻道問的）回 "C"；公會外的人直接問的回 "CW"：小幫手只傳榮譽擊殺過來
+    -- 公會成員（或在公會頻道問的）回 "C"；公會外的人直接問的回 "CW"：小幫手只傳榮譽擊殺和物品來源過來
     send((channel == "GUILD" or member(sender)) and "C" or "CW", "WHISPER", sender)
   elseif channel == "WHISPER" and text:sub(1, 1) == "D" then
     onData(sender, text, not member(sender))
@@ -263,15 +279,15 @@ for _, e in ipairs({ "ADDON_LOADED", "PLAYER_ENTERING_WORLD", "GUILD_ROSTER_UPDA
   frame:RegisterEvent(e)
 end
 
--- 站長自己這台的小幫手記到的榮譽擊殺：直接存進來（寄件人是自己）
+-- 站長自己這台的小幫手記到的榮譽擊殺、物品來源：直接存進來（寄件人是自己，標 own）
 function AmobiGuild_Store(body)
-  if type(body) ~= "string" or not isPvp(body) or type(AmobiGuildDB) ~= "table" or not AmobiGuildDB.inbox then return false end
+  if type(body) ~= "string" or not guestOK(body) or type(AmobiGuildDB) ~= "table" or not AmobiGuildDB.inbox then return false end
   local me = UnitName("player")
   if secret(me) or type(me) ~= "string" then me = "?" end
   local id = hash(body)
   if not AmobiGuildDB.got[id] then
     AmobiGuildDB.got[id] = time()
-    table.insert(AmobiGuildDB.inbox, { id = id, from = me, at = time(), body = body })
+    table.insert(AmobiGuildDB.inbox, { id = id, from = me, at = time(), body = body, own = true })
     AmobiGuildDB.stats.records = (AmobiGuildDB.stats.records or 0) + 1
     AmobiGuildDB.stats.last = time()
   end
@@ -285,15 +301,18 @@ SlashCmdList.AMOBIGUILD = function()
   if not g then
     print("|cffe9cb88阿莫比公會名單|r：還沒讀到公會名單（要在公會裡、戰鬥外）。")
   else
-    print(("|cffe9cb88阿莫比公會名單|r：%s %d 人（%s 讀到）。登出後自動上傳到競拍場。"):format(
-      g.name or "公會", #g.members, date("%m/%d %H:%M", g.at)))
+    local withClass = 0
+    for _ in pairs(type(g.classes) == "table" and g.classes or {}) do withClass = withClass + 1 end
+    print(("|cffe9cb88阿莫比公會名單|r：%s %d 人、%d 人有職業（%s 讀到）。登出後自動上傳到競拍場、Discord 身分組。"):format(
+      g.name or "公會", #g.members, withClass, date("%m/%d %H:%M", g.at)))
   end
-  local market, kills, pvp, people, n = 0, 0, 0, {}, 0
+  local market, kills, pvp, src, people, n = 0, 0, 0, 0, {}, 0
   for _, e in ipairs(AmobiGuildDB and AmobiGuildDB.inbox or {}) do
     local kind = e.body:sub(1, 3)
-    if kind == "M1^" then market = market + 1 elseif isPvp(e.body) then pvp = pvp + 1 else kills = kills + 1 end
+    if kind == "M1^" then market = market + 1 elseif isPvp(e.body) then pvp = pvp + 1
+    elseif isSrc(e.body) then src = src + 1 else kills = kills + 1 end
     if not people[bare(e.from)] then people[bare(e.from)], n = true, n + 1 end
   end
-  print(("|cffe9cb88阿莫比公會名單|r：小幫手傳來 %d 次拍賣場掃描、%d 次首領擊殺%s（%d 個人）。登出後自動上傳到網站。")
-    :format(market, kills, pvp > 0 and ("、%d 筆榮譽擊殺"):format(pvp) or "", n))
+  print(("|cffe9cb88阿莫比公會名單|r：小幫手傳來 %d 次拍賣場掃描、%d 次首領擊殺%s%s（%d 個人）。登出後自動上傳到網站。")
+    :format(market, kills, pvp > 0 and ("、%d 筆榮譽擊殺"):format(pvp) or "", src > 0 and ("、%d 筆物品來源"):format(src) or "", n))
 end

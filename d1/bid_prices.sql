@@ -21,3 +21,17 @@ INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(12,13090,
 INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(13,6728,2,0,1792999348);
 INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(14,254049,500,0,1792999423);
 INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(15,6473,50,1,1792999656);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(16,288914,12,0,1792929413);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(17,18814,18,0,1792948235);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(18,19397,800,0,1792948650);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(19,2075,1,0,1792951234);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(20,6698,8,1,1792951644);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(21,18833,7,0,1792952958);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(22,18814,500,0,1792953608);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(23,19019,2553,1,1792956989);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(24,288901,888,0,1792957803);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(25,17073,40,0,1792997178);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(26,21242,35,0,1792997592);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(27,21348,11,0,1792997601);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(28,21244,38,0,1792997608);
+INSERT INTO "bid_prices" ("id","item_id","price","capped","at") VALUES(29,21176,1000,0,1793770737);

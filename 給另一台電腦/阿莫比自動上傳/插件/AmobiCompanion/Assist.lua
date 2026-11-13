@@ -666,7 +666,8 @@ end
 local platePool = {}
 
 local function platesOn()
-  return S().plateHealth and #A.Conflicts().plates == 0
+  -- 血條美化開著時百分比在血條裡（遊戲自己顯示），下面這行就不加了
+  return S().plateHealth and #A.Conflicts().plates == 0 and not ns.Plates.Active()
 end
 
 local function plateFor(unit)
@@ -676,6 +677,7 @@ local function plateFor(unit)
   if not okF or forbidden then return nil end
   return plate
 end
+A.PlateFor = plateFor
 
 local function plateAdded(unit)
   if not platesOn() or type(unit) ~= "string" then return end
@@ -715,6 +717,7 @@ local function refreshPlates()
     if UnitExists(unit) then plateAdded(unit) end
   end
 end
+A.RefreshPlates = refreshPlates
 
 -- ---------------------------------------------------------------------------- 冷卻倒數數字
 local function makeFormatter()
@@ -917,8 +920,9 @@ function A.BuildSettings(p, y)
     modeButtons[i] = { b, m[1] }
   end
   check("名條也顯示血量百分比（副本裡的名條遊戲不讓插件加）", "plateHealth", -212, 0, function() refreshPlates() end)
+  check("血條美化（阿莫比樣式：細框、血量百分比、金色目標框、職業色）", "plateBeauty", -234, 0, function() say(ns.Plates.Apply()) end)
   local note = ns.UI.Text(p, "GameFontDisableSmall", "", 430)
-  note:SetPoint("TOPLEFT", 4, y - 238)
+  note:SetPoint("TOPLEFT", 4, y - 260)
   A.settingsNote = note
 
   function p.RefreshAssist()
@@ -930,9 +934,9 @@ function A.BuildSettings(p, y)
     local c = A.Conflicts()
     local parts = {}
     if #c.frames > 0 then parts[#parts + 1] = "偵測到頭像插件 " .. table.concat(c.frames, "、") .. "：不改頭像的血量設定。" end
-    if #c.plates > 0 then parts[#parts + 1] = "偵測到名條插件 " .. table.concat(c.plates, "、") .. "：不加名條文字。" end
+    if #c.plates > 0 then parts[#parts + 1] = "偵測到名條插件 " .. table.concat(c.plates, "、") .. "：不加名條文字、不改血條外觀。" end
     note:SetText(table.concat(parts, "\n"))
   end
   p.RefreshAssist()
-  return y - 262
+  return y - 284
 end
